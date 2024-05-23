@@ -1,3 +1,64 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS",
+      "brokenLocator": "//*[(text() \u003d \u0027(678) 813-1KMS\u0027 or . \u003d \u0027(678) 813-1KMS\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[3]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div/div/a/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ATC/Page_Cars for Sale - Used Cars, New Cars, S_d47ec4/img_Sign In_display-inline-block display-lg-none",
+      "brokenLocator": "//div[@id\u003d\u0027mountNode\u0027]/header/div/div/a/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4",
+      "brokenLocator": "nav.nav__main.flex.flex-col.items-end.text-argo-clrs-primarywhite.font-open-sans.h-[64px].w-[77px].xl:w-[129px].mr-[8px].xl:mr-[0px].false \u003e button.menu-toggle.h-full.w-full.font-open-sans.text-center.self-center.justify-center.bg-transparent.py-[20px].px-[12px].xl:px-[0px].xl:py-[0px].logged-out-menu \u003e div.flex.h-full.w-full.items-center.justify-start \u003e div.text-white.argo-typographyXSMedium.self-center.w-[53px].xl:pl-[24px].xl:py-[24px].false",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "internal:label\u003d\"Open menu\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Industries",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Industries\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Industries_link.png"
+    }
+  ]
 }
