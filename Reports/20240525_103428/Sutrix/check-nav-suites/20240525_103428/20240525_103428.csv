@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-nav-suites,Chrome 125.0.0.0,,,25-05-2024 10:34:36,25-05-2024 10:35:39,1m - 3.546s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-banner,Chrome 125.0.0.0,,,25-05-2024 10:34:36,25-05-2024 10:34:43,6.784s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:34:37,25-05-2024 10:34:39,1.987s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:34:39,25-05-2024 10:34:41,2.739s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_We use cookiesHi, this website uses ess_7bae85""))",Chrome 125.0.0.0,,,25-05-2024 10:34:41,25-05-2024 10:34:43,1.445s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:34:43,25-05-2024 10:34:43,0.227s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-contact-us-button,Chrome 125.0.0.0,,,25-05-2024 10:34:43,25-05-2024 10:34:50,7.338s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:34:43,25-05-2024 10:34:44,0.799s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:34:44,25-05-2024 10:34:47,2.681s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Contact Us""))",Chrome 125.0.0.0,,,25-05-2024 10:34:47,25-05-2024 10:34:50,3.583s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:34:50,25-05-2024 10:34:50,0.210s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-footer,Chrome 125.0.0.0,,,25-05-2024 10:34:50,25-05-2024 10:34:56,5.392s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:34:50,25-05-2024 10:34:51,0.736s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:34:51,25-05-2024 10:34:53,2.290s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_About""))",Chrome 125.0.0.0,,,25-05-2024 10:34:53,25-05-2024 10:34:56,2.294s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-logo,Chrome 125.0.0.0,,,25-05-2024 10:34:56,25-05-2024 10:35:00,4.740s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:34:56,25-05-2024 10:34:57,0.920s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:34:57,25-05-2024 10:34:59,2.144s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/img_About_logo-white""))",Chrome 125.0.0.0,,,25-05-2024 10:34:59,25-05-2024 10:35:00,1.344s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:00,25-05-2024 10:35:00,0.237s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-menu,Chrome 125.0.0.0,,,25-05-2024 10:35:00,25-05-2024 10:35:05,4.654s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:01,25-05-2024 10:35:01,0.804s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:01,25-05-2024 10:35:04,2.293s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_AboutServicesWorkApproachPartnershipsVi_85df2e""))",Chrome 125.0.0.0,,,25-05-2024 10:35:04,25-05-2024 10:35:05,1.265s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:05,25-05-2024 10:35:05,0.219s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-slogan-text,Chrome 125.0.0.0,,,25-05-2024 10:35:05,25-05-2024 10:35:12,6.983s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:05,25-05-2024 10:35:06,0.791s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:06,25-05-2024 10:35:08,2.124s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Accept all""))",Chrome 125.0.0.0,,,25-05-2024 10:35:08,25-05-2024 10:35:10,1.418s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_Build Compelling ExperiencesWith over 2_5e97cc""))",Chrome 125.0.0.0,,,25-05-2024 10:35:10,25-05-2024 10:35:11,1.030s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Contact Us_btn btn-scroll-to""))",Chrome 125.0.0.0,,,25-05-2024 10:35:11,25-05-2024 10:35:11,0.400s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:11,25-05-2024 10:35:12,1.146s,PASSED
+,,,,,,,
+Test Cases/Sutrix/check-visit-japans-site,Chrome 125.0.0.0,,,25-05-2024 10:35:12,25-05-2024 10:35:18,5.982s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:12,25-05-2024 10:35:13,0.668s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:13,25-05-2024 10:35:15,2.340s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site""), 0)",Chrome 125.0.0.0,,,25-05-2024 10:35:15,25-05-2024 10:35:17,1.516s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site""))",Chrome 125.0.0.0,,,25-05-2024 10:35:17,25-05-2024 10:35:18,1.194s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:18,25-05-2024 10:35:18,0.199s,PASSED
+,,,,,,,
+Test Cases/Sutrix/click-approaches,Chrome 125.0.0.0,,,25-05-2024 10:35:18,25-05-2024 10:35:24,5.709s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:18,25-05-2024 10:35:19,0.764s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:19,25-05-2024 10:35:21,2.242s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach""), 0)",Chrome 125.0.0.0,,,25-05-2024 10:35:21,25-05-2024 10:35:22,1.279s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach""))",Chrome 125.0.0.0,,,25-05-2024 10:35:22,25-05-2024 10:35:24,1.113s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:24,25-05-2024 10:35:24,0.249s,PASSED
+,,,,,,,
+Test Cases/Sutrix/click-service,Chrome 125.0.0.0,,,25-05-2024 10:35:24,25-05-2024 10:35:27,3.216s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:24,25-05-2024 10:35:25,0.756s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:25,25-05-2024 10:35:27,2.205s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:27,25-05-2024 10:35:27,0.190s,PASSED
+,,,,,,,
+Test Cases/Sutrix/click-work,Chrome 125.0.0.0,,,25-05-2024 10:35:27,25-05-2024 10:35:33,5.800s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:27,25-05-2024 10:35:28,0.702s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:28,25-05-2024 10:35:30,2.255s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Work""))",Chrome 125.0.0.0,,,25-05-2024 10:35:30,25-05-2024 10:35:32,2.444s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:32,25-05-2024 10:35:33,0.334s,PASSED
+,,,,,,,
+Test Cases/Sutrix/partner-click,Chrome 125.0.0.0,,,25-05-2024 10:35:33,25-05-2024 10:35:39,6.644s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:35:33,25-05-2024 10:35:34,0.742s,PASSED
+"navigateToUrl(""https://sutrixgroup.com/en/"")",Chrome 125.0.0.0,,,25-05-2024 10:35:34,25-05-2024 10:35:36,2.121s,PASSED
+"click(findTestObject(""Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Partnerships""))",Chrome 125.0.0.0,,,25-05-2024 10:35:36,25-05-2024 10:35:39,3.520s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:35:39,25-05-2024 10:35:39,0.209s,PASSED

@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+all-bbk,Chrome 125.0.0.0,,,26-05-2024 21:31:43,26-05-2024 21:36:31,4m - 47.356s,PASSED
+,,,,,,,
+Test Cases/BBK/check-button-1,Chrome 125.0.0.0,,,26-05-2024 21:31:44,26-05-2024 21:32:26,42.239s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:31:44,26-05-2024 21:31:46,1.649s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:31:46,26-05-2024 21:31:53,7.770s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed""))",Chrome 125.0.0.0,,,26-05-2024 21:31:53,26-05-2024 21:32:26,32.279s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:32:26,26-05-2024 21:32:26,0.196s,PASSED
+,,,,,,,
+Test Cases/BBK/check-button-2,Chrome 125.0.0.0,,,26-05-2024 21:32:26,26-05-2024 21:33:16,50.139s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:32:26,26-05-2024 21:32:26,0.628s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:32:26,26-05-2024 21:32:43,16.888s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value""))",Chrome 125.0.0.0,,,26-05-2024 21:32:43,26-05-2024 21:33:16,32.342s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:33:16,26-05-2024 21:33:16,0.191s,PASSED
+,,,,,,,
+Test Cases/BBK/check-button-3,Chrome 125.0.0.0,,,26-05-2024 21:33:16,26-05-2024 21:33:54,38.338s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:33:16,26-05-2024 21:33:17,0.616s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:33:17,26-05-2024 21:33:22,5.288s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale""))",Chrome 125.0.0.0,,,26-05-2024 21:33:22,26-05-2024 21:33:54,32.196s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:33:54,26-05-2024 21:33:54,0.185s,PASSED
+,,,,,,,
+Test Cases/BBK/check-hero-banner,Chrome 125.0.0.0,,,26-05-2024 21:33:54,26-05-2024 21:34:36,41.912s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:33:54,26-05-2024 21:33:55,0.625s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:33:55,26-05-2024 21:34:00,5.199s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9""))",Chrome 125.0.0.0,,,26-05-2024 21:34:00,26-05-2024 21:34:36,35.858s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:34:36,26-05-2024 21:34:36,0.181s,PASSED
+,,,,,,,
+Test Cases/BBK/check-logo,Chrome 125.0.0.0,,,26-05-2024 21:34:36,26-05-2024 21:34:53,16.701s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:34:36,26-05-2024 21:34:37,0.635s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:34:37,26-05-2024 21:34:50,13.093s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img""))",Chrome 125.0.0.0,,,26-05-2024 21:34:50,26-05-2024 21:34:53,2.764s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:34:53,26-05-2024 21:34:53,0.157s,PASSED
+,,,,,,,
+Test Cases/BBK/check-shop-mart-label,Chrome 125.0.0.0,,,26-05-2024 21:34:53,26-05-2024 21:35:01,8.508s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:34:53,26-05-2024 21:34:54,0.625s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:34:54,26-05-2024 21:34:59,5.250s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart""), ""Shop Smart"")",Chrome 125.0.0.0,,,26-05-2024 21:34:59,26-05-2024 21:35:01,2.408s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:35:01,26-05-2024 21:35:01,0.177s,PASSED
+,,,,,,,
+Test Cases/BBK/check-shop-mart,Chrome 125.0.0.0,,,26-05-2024 21:35:01,26-05-2024 21:35:10,8.287s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:35:01,26-05-2024 21:35:02,0.643s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:35:02,26-05-2024 21:35:07,5.291s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart""))",Chrome 125.0.0.0,,,26-05-2024 21:35:07,26-05-2024 21:35:10,2.149s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:35:10,26-05-2024 21:35:10,0.163s,PASSED
+,,,,,,,
+Test Cases/BBK/check-slogan,Chrome 125.0.0.0,,,26-05-2024 21:35:10,26-05-2024 21:36:31,1m - 21.040s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,26-05-2024 21:35:10,26-05-2024 21:35:10,0.615s,PASSED
+"navigateToUrl(""https://www.kbb.com/"")",Chrome 125.0.0.0,,,26-05-2024 21:35:10,26-05-2024 21:35:23,12.210s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars""))",Chrome 125.0.0.0,,,26-05-2024 21:35:23,26-05-2024 21:35:59,36.493s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars""), ""Kelley Knows Cars"")",Chrome 125.0.0.0,,,26-05-2024 21:35:59,26-05-2024 21:36:31,31.514s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,26-05-2024 21:36:31,26-05-2024 21:36:31,0.165s,PASSED

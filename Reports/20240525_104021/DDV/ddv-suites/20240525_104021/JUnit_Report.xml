@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ddv-suites" time="65.011" tests="10" failures="0" errors="0">
+   <testsuite name="ddv-suites" tests="10" failures="0" errors="0" time="65.011" skipped="0" timestamp="25-05-2024T10:40:32" hostname="ToanLa - DESKTOP-QSIPVT9" id="Test Suites/DDV/ddv-suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240525_104021\\DDV\\ddv-suites\\20240525_104021"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240525_104021\\DDV\\ddv-suites\\20240525_104021\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="bdb5812ca98c8719e8731176f004623e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DDV/check-categories" time="11.552" classname="Test Cases/DDV/check-categories" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:40:33 - [TEST_CASE][PASSED] - Test Cases/DDV/check-categories: Test Cases/DDV/check-categories
+
+25-05-2024T10:40:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:40:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:40:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:40:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:40:37 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:42 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Galaxy S24 UltraiPhone 15 Pro MaxiPad G_4b7227")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Galaxy S24 UltraiPhone 15 Pro MaxiPad G_4b7227' is visible
+
+25-05-2024T10:40:44 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Galaxy S24 UltraiPhone 15 Pro MaxiPad G_4b7227' is visible
+
+25-05-2024T10:40:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:40:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-hotline" time="9.135" classname="Test Cases/DDV/check-hotline" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:40:44 - [TEST_CASE][PASSED] - Test Cases/DDV/check-hotline: Test Cases/DDV/check-hotline
+
+25-05-2024T10:40:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:40:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:40:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:40:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:40:46 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:50 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018"), "1800.6018"): Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018' are matched.
+
+25-05-2024T10:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018' are matched.
+
+25-05-2024T10:40:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018' is visible
+
+25-05-2024T10:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018' is visible
+
+25-05-2024T10:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:40:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-left-menu" time="6.176" classname="Test Cases/DDV/check-left-menu" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:40:53 - [TEST_CASE][PASSED] - Test Cases/DDV/check-left-menu: Test Cases/DDV/check-left-menu
+
+25-05-2024T10:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:40:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:40:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:40:55 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:58 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:40:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4' is visible
+
+25-05-2024T10:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4' is visible
+
+25-05-2024T10:40:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-logo-available" time="5.625" classname="Test Cases/DDV/check-logo-available" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:00 - [TEST_CASE][PASSED] - Test Cases/DDV/check-logo-available: Test Cases/DDV/check-logo-available
+
+25-05-2024T10:41:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:00 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:04 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/img")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/img' is visible
+
+25-05-2024T10:41:05 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/img' is visible
+
+25-05-2024T10:41:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-main-banner" time="5.433" classname="Test Cases/DDV/check-main-banner" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:05 - [TEST_CASE][PASSED] - Test Cases/DDV/check-main-banner: Test Cases/DDV/check-main-banner
+
+25-05-2024T10:41:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:06 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:09 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4' is visible
+
+25-05-2024T10:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4' is visible
+
+25-05-2024T10:41:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-others-show-room" time="5.795" classname="Test Cases/DDV/check-others-show-room" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:11 - [TEST_CASE][PASSED] - Test Cases/DDV/check-others-show-room: Test Cases/DDV/check-others-show-room
+
+25-05-2024T10:41:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:11 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:14 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Oppo  Xiaomi  realme  HONOR Chnh HngOPP_34c939")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Oppo  Xiaomi  realme  HONOR Chnh HngOPP_34c939' is visible
+
+25-05-2024T10:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Oppo  Xiaomi  realme  HONOR Chnh HngOPP_34c939' is visible
+
+25-05-2024T10:41:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Oppo  Xiaomi  realme  HONOR Chnh Hng"), "Oppo | Xiaomi | realme | HONOR Chính Hãng"): Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Oppo  Xiaomi  realme  HONOR Chnh Hng' are matched.
+
+25-05-2024T10:41:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Oppo  Xiaomi  realme  HONOR Chnh Hng' are matched.
+
+25-05-2024T10:41:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-page-can-connect" time="4.998" classname="Test Cases/DDV/check-page-can-connect" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:17 - [TEST_CASE][PASSED] - Test Cases/DDV/check-page-can-connect: Test Cases/DDV/check-page-can-connect
+
+25-05-2024T10:41:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:17 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:20 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone 15 Pro MaxGalaxy S24 UltraXiaomi_875374")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone 15 Pro MaxGalaxy S24 UltraXiaomi_875374' is visible
+
+25-05-2024T10:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone 15 Pro MaxGalaxy S24 UltraXiaomi_875374' is visible
+
+25-05-2024T10:41:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-right-side-bar" time="4.997" classname="Test Cases/DDV/check-right-side-bar" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:22 - [TEST_CASE][PASSED] - Test Cases/DDV/check-right-side-bar: Test Cases/DDV/check-right-side-bar
+
+25-05-2024T10:41:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:22 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:25 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_ng k_flex h-full flex-col justify-betwe_6cc556")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_ng k_flex h-full flex-col justify-betwe_6cc556' is visible
+
+25-05-2024T10:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_ng k_flex h-full flex-col justify-betwe_6cc556' is visible
+
+25-05-2024T10:41:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-samsung" time="5.301" classname="Test Cases/DDV/check-samsung" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:27 - [TEST_CASE][PASSED] - Test Cases/DDV/check-samsung: Test Cases/DDV/check-samsung
+
+25-05-2024T10:41:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:27 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:30 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Samsung Chnh HngGalaxy Z Flip5Galaxy Z _6d232a")): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Samsung Chnh HngGalaxy Z Flip5Galaxy Z _6d232a' is visible
+
+25-05-2024T10:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Samsung Chnh HngGalaxy Z Flip5Galaxy Z _6d232a' is visible
+
+25-05-2024T10:41:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Samsung Chnh Hng"), "Samsung Chính Hãng"): Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Samsung Chnh Hng' are matched.
+
+25-05-2024T10:41:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Samsung Chnh Hng' are matched.
+
+25-05-2024T10:41:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDV/check-show-room" time="5.464" classname="Test Cases/DDV/check-show-room" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:41:32 - [TEST_CASE][PASSED] - Test Cases/DDV/check-show-room: Test Cases/DDV/check-show-room
+
+25-05-2024T10:41:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:41:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:41:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:41:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:41:33 - [TEST_STEP][PASSED] - navigateToUrl("https://didongviet.vn/"): Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:35 - [MESSAGE][PASSED] - Navigate to 'https://didongviet.vn/' successfully
+
+25-05-2024T10:41:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone VNA Chnh ThngiPhone 15 SeriesiPh_f6f959"), 0): Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone VNA Chnh ThngiPhone 15 SeriesiPh_f6f959' is present
+
+25-05-2024T10:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+25-05-2024T10:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone VNA Chnh ThngiPhone 15 SeriesiPh_f6f959' is present
+
+25-05-2024T10:41:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_iPhone VNA Chnh Thng"), "iPhone VN/A Chính Thống"): Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_iPhone VNA Chnh Thng' are matched.
+
+25-05-2024T10:41:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_iPhone VNA Chnh Thng' are matched.
+
+25-05-2024T10:41:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:41:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-05-2024T10:40:32 - [TEST_SUITE][PASSED] - ddv-suites: Test Cases/DDV/check-show-room]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

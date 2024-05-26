@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="check-banner" time="9.853" tests="1" failures="0" errors="0">
+   <testsuite name="check-banner" tests="1" failures="0" errors="0" time="9.853" skipped="0" timestamp="25-05-2024T10:36:46" hostname="ToanLa - DESKTOP-QSIPVT9" id="Test Suites/KMS/check-banner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240525_103638\\KMS\\check-banner\\20240525_103638"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240525_103638\\KMS\\check-banner\\20240525_103638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="ba89861cab8772e61d90ea201644786a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/KMS/KMS-Check-Body" time="9.621" classname="Test Cases/KMS/KMS-Check-Body" status="PASSED">
+         <system-out><![CDATA[25-05-2024T10:36:46 - [TEST_CASE][PASSED] - Test Cases/KMS/KMS-Check-Body: Test Cases/KMS/KMS-Check-Body
+
+25-05-2024T10:36:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-05-2024T10:36:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-05-2024T10:36:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-05-2024T10:36:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-05-2024T10:36:49 - [TEST_STEP][PASSED] - navigateToUrl("https://kms-technology.com/"): Navigate to 'https://kms-technology.com/' successfully
+
+25-05-2024T10:36:55 - [MESSAGE][PASSED] - Navigate to 'https://kms-technology.com/' successfully
+
+25-05-2024T10:36:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/div_Our End-to-End Custom Software Developm_b402b8")): Object 'Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/div_Our End-to-End Custom Software Developm_b402b8' is visible
+
+25-05-2024T10:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/div_Our End-to-End Custom Software Developm_b402b8' is visible
+
+25-05-2024T10:36:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+25-05-2024T10:36:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-05-2024T10:36:46 - [TEST_SUITE][PASSED] - check-banner: Test Cases/KMS/KMS-Check-Body]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

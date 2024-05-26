@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ddv-suites,Chrome 125.0.0.0,,,25-05-2024 10:40:32,25-05-2024 10:41:37,1m - 5.011s,PASSED
+,,,,,,,
+Test Cases/DDV/check-categories,Chrome 125.0.0.0,,,25-05-2024 10:40:33,25-05-2024 10:40:44,11.552s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:40:33,25-05-2024 10:40:37,3.175s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:40:37,25-05-2024 10:40:42,5.506s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Galaxy S24 UltraiPhone 15 Pro MaxiPad G_4b7227""))",Chrome 125.0.0.0,,,25-05-2024 10:40:42,25-05-2024 10:40:44,1.868s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:40:44,25-05-2024 10:40:44,0.415s,PASSED
+,,,,,,,
+Test Cases/DDV/check-hotline,Chrome 125.0.0.0,,,25-05-2024 10:40:44,25-05-2024 10:40:53,9.135s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:40:45,25-05-2024 10:40:46,1.173s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:40:46,25-05-2024 10:40:50,4.597s,PASSED
+"verifyElementText(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018""), ""1800.6018"")",Chrome 125.0.0.0,,,25-05-2024 10:40:50,25-05-2024 10:40:52,1.687s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/p_1800.6018""))",Chrome 125.0.0.0,,,25-05-2024 10:40:52,25-05-2024 10:40:53,1.206s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:40:53,25-05-2024 10:40:53,0.296s,PASSED
+,,,,,,,
+Test Cases/DDV/check-left-menu,Chrome 125.0.0.0,,,25-05-2024 10:40:53,25-05-2024 10:41:00,6.176s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:40:54,25-05-2024 10:40:55,0.971s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:40:55,25-05-2024 10:40:58,3.562s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4""))",Chrome 125.0.0.0,,,25-05-2024 10:40:58,25-05-2024 10:40:59,1.284s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:40:59,25-05-2024 10:41:00,0.226s,PASSED
+,,,,,,,
+Test Cases/DDV/check-logo-available,Chrome 125.0.0.0,,,25-05-2024 10:41:00,25-05-2024 10:41:05,5.625s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:00,25-05-2024 10:41:00,0.720s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:00,25-05-2024 10:41:04,3.298s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/img""))",Chrome 125.0.0.0,,,25-05-2024 10:41:04,25-05-2024 10:41:05,1.335s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:05,25-05-2024 10:41:05,0.186s,PASSED
+,,,,,,,
+Test Cases/DDV/check-main-banner,Chrome 125.0.0.0,,,25-05-2024 10:41:05,25-05-2024 10:41:11,5.433s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:05,25-05-2024 10:41:06,0.731s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:06,25-05-2024 10:41:09,3.196s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_in thoiApple (AAR)Laptop  TabletMy c gi_2921c4""))",Chrome 125.0.0.0,,,25-05-2024 10:41:09,25-05-2024 10:41:11,1.307s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:11,25-05-2024 10:41:11,0.185s,PASSED
+,,,,,,,
+Test Cases/DDV/check-others-show-room,Chrome 125.0.0.0,,,25-05-2024 10:41:11,25-05-2024 10:41:17,5.795s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:11,25-05-2024 10:41:11,0.653s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:11,25-05-2024 10:41:14,2.943s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Oppo  Xiaomi  realme  HONOR Chnh HngOPP_34c939""))",Chrome 125.0.0.0,,,25-05-2024 10:41:14,25-05-2024 10:41:16,1.567s,PASSED
+"verifyElementText(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Oppo  Xiaomi  realme  HONOR Chnh Hng""), ""Oppo | Xiaomi | realme | HONOR Chính Hãng"")",Chrome 125.0.0.0,,,25-05-2024 10:41:16,25-05-2024 10:41:16,0.355s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:16,25-05-2024 10:41:17,0.223s,PASSED
+,,,,,,,
+Test Cases/DDV/check-page-can-connect,Chrome 125.0.0.0,,,25-05-2024 10:41:17,25-05-2024 10:41:22,4.998s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:17,25-05-2024 10:41:17,0.650s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:17,25-05-2024 10:41:20,2.780s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone 15 Pro MaxGalaxy S24 UltraXiaomi_875374""))",Chrome 125.0.0.0,,,25-05-2024 10:41:20,25-05-2024 10:41:21,1.339s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:21,25-05-2024 10:41:22,0.186s,PASSED
+,,,,,,,
+Test Cases/DDV/check-right-side-bar,Chrome 125.0.0.0,,,25-05-2024 10:41:22,25-05-2024 10:41:27,4.997s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:22,25-05-2024 10:41:22,0.654s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:22,25-05-2024 10:41:25,2.730s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_ng k_flex h-full flex-col justify-betwe_6cc556""))",Chrome 125.0.0.0,,,25-05-2024 10:41:25,25-05-2024 10:41:26,1.362s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:26,25-05-2024 10:41:27,0.205s,PASSED
+,,,,,,,
+Test Cases/DDV/check-samsung,Chrome 125.0.0.0,,,25-05-2024 10:41:27,25-05-2024 10:41:32,5.301s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:27,25-05-2024 10:41:27,0.674s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:27,25-05-2024 10:41:30,2.733s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_Samsung Chnh HngGalaxy Z Flip5Galaxy Z _6d232a""))",Chrome 125.0.0.0,,,25-05-2024 10:41:30,25-05-2024 10:41:31,1.327s,PASSED
+"verifyElementText(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_Samsung Chnh Hng""), ""Samsung Chính Hãng"")",Chrome 125.0.0.0,,,25-05-2024 10:41:31,25-05-2024 10:41:32,0.310s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:32,25-05-2024 10:41:32,0.207s,PASSED
+,,,,,,,
+Test Cases/DDV/check-show-room,Chrome 125.0.0.0,,,25-05-2024 10:41:32,25-05-2024 10:41:37,5.464s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,25-05-2024 10:41:32,25-05-2024 10:41:33,0.639s,PASSED
+"navigateToUrl(""https://didongviet.vn/"")",Chrome 125.0.0.0,,,25-05-2024 10:41:33,25-05-2024 10:41:35,2.860s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/div_iPhone VNA Chnh ThngiPhone 15 SeriesiPh_f6f959""), 0)",Chrome 125.0.0.0,,,25-05-2024 10:41:35,25-05-2024 10:41:37,1.332s,PASSED
+"verifyElementText(findTestObject(""Object Repository/DDV/Page_Didongviet.vn - in thoi, Tablet, ng h,_4e2c42/a_iPhone VNA Chnh Thng""), ""iPhone VN/A Chính Thống"")",Chrome 125.0.0.0,,,25-05-2024 10:41:37,25-05-2024 10:41:37,0.340s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,25-05-2024 10:41:37,25-05-2024 10:41:37,0.232s,PASSED

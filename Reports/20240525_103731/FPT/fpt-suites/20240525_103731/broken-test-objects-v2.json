@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_Accompany You on Your Transformation J_93dfc8/a_Accompany You on Your Transformation Journey",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Singapore (English)\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

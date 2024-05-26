@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed",
+      "brokenLocator": "//div[@id\u003d\u0027superHeroBannerContainer\u0027]/div[2]/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kelley Knows Cars\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_214210/BBK/all-bbk/20240526_214211/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value",
+      "brokenLocator": "//div[@id\u003d\u0027superHeroBannerContainer\u0027]/div[2]/div/div/a[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Price New/Used\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_214210/BBK/all-bbk/20240526_214211/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale",
+      "brokenLocator": "//div[@id\u003d\u0027superHeroBannerContainer\u0027]/div[2]/div/div/a[3]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Price New/Used\u0027])[2]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_214210/BBK/all-bbk/20240526_214211/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9",
+      "brokenLocator": "//div[@id\u003d\u0027superHeroBannerContainer\u0027]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recalls\u0027])[1]/following::div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_214210/BBK"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars",
+      "brokenLocator": "//div[@id\u003d\u0027superHeroBannerContainer\u0027]/div[2]/h1",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recalls\u0027])[1]/following::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240526_214210/BBK/all-bbk/20240526_214211/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars_neighbor.png"
+    }
+  ]
+}
