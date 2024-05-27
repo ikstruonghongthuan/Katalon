@@ -1,0 +1,174 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_Accompany You on Your Transformation J_93dfc8/a_Accompany You on Your Transformation Journey",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Singapore (English)\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_Accompany You on Your Transformation J_93dfc8/a_Accompany You on Your Transformation Journey",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Singapore (English)\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Contact us",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div/div/div/div/ul/li/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Newsroom\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Contact us",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div/div/div/div/ul/li/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Newsroom\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Career",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div/div/div/div/ul/li[2]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Career\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT/fpt-suites/20240527_213137/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Career_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_WE ARE                              a c_6fe479",
+      "brokenLocator": "//div[@id\u003d\u0027our-missions\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//main/div/div[2]/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT/fpt-suites/20240527_213137/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_WE ARE                              a c_6fe479_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Accompany You on Your Transformation Journey",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Singapore (English)\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Accompany You on Your Transformation Journey",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Singapore (English)\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Industries",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Industries\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT/fpt-suites/20240527_213137/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Industries_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Learn more",
+      "brokenLocator": "//div[@id\u003d\u0027our-industries\u0027]/div/div/div/div[2]/div/div/div/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027/industries/automotive\u0027)])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Learn more",
+      "brokenLocator": "//div[@id\u003d\u0027our-industries\u0027]/div/div/div/div[2]/div/div/div/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027/industries/automotive\u0027)])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Events",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div/div/div/div/ul/li[4]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Events\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Events",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div/div/div/div/ul/li[4]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Events\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_Copyright  2023 FPTSoftware",
+      "brokenLocator": "//div[@id\u003d\u0027footer\u0027]/div/div/div/div/div[2]/div/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Terms of use\u0027])[1]/preceding::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT/fpt-suites/20240527_213137/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_Copyright  2023 FPTSoftware_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Services",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Services\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT/fpt-suites/20240527_213137/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_Services_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_About Us",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027About Us\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/a_About Us",
+      "brokenLocator": "//div[@id\u003d\u0027header\u0027]/div/div/div[2]/div/div[3]/div/nav/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027About Us\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240527_213136/FPT"
+    }
+  ]
+}

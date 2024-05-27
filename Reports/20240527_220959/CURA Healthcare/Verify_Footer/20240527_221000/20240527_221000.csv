@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify_Footer,Chrome 125.0.0.0,,,27-05-2024 22:10:07,27-05-2024 22:11:03,56.021s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Footer_Copyright,Chrome 125.0.0.0,,,27-05-2024 22:10:08,27-05-2024 22:10:13,5.471s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,27-05-2024 22:10:08,27-05-2024 22:10:10,1.842s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,27-05-2024 22:10:10,27-05-2024 22:10:12,2.727s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024""), 0)",Chrome 125.0.0.0,,,27-05-2024 22:10:12,27-05-2024 22:10:13,0.370s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,27-05-2024 22:10:13,27-05-2024 22:10:13,0.153s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Footer_Email,Chrome 125.0.0.0,,,27-05-2024 22:10:13,27-05-2024 22:10:18,4.628s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,27-05-2024 22:10:13,27-05-2024 22:10:14,0.659s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,27-05-2024 22:10:14,27-05-2024 22:10:17,3.367s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_infokatalon.com""), 0)",Chrome 125.0.0.0,,,27-05-2024 22:10:17,27-05-2024 22:10:17,0.303s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,27-05-2024 22:10:17,27-05-2024 22:10:18,0.245s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Phone_Number,Chrome 125.0.0.0,,,27-05-2024 22:10:18,27-05-2024 22:10:56,37.892s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,27-05-2024 22:10:18,27-05-2024 22:10:18,0.669s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,27-05-2024 22:10:18,27-05-2024 22:10:21,2.753s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS""), ""(678) 813-1KMS"")",Chrome 125.0.0.0,,,27-05-2024 22:10:21,27-05-2024 22:10:55,34.267s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,27-05-2024 22:10:55,27-05-2024 22:10:56,0.138s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Address,Chrome 125.0.0.0,,,27-05-2024 22:10:56,27-05-2024 22:11:03,7.811s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,27-05-2024 22:10:56,27-05-2024 22:10:56,0.620s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,27-05-2024 22:10:56,27-05-2024 22:11:03,6.691s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""))",Chrome 125.0.0.0,,,27-05-2024 22:11:03,27-05-2024 22:11:03,0.320s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,27-05-2024 22:11:03,27-05-2024 22:11:03,0.136s,PASSED
