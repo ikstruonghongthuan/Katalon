@@ -38,9 +38,9 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_15'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'), 
-    'hehehe')
+    'hettv')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.takeAreaScreenshotAsCheckpoint('visual_test_pic', a)
+WebUI.takeAreaScreenshotAsCheckpoint('visual_test_pic', null)
 

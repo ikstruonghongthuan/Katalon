@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="all-bbk" time="315.33" tests="8" failures="0" errors="0">
+   <testsuite name="all-bbk" tests="8" failures="0" errors="0" time="315.33" skipped="0" timestamp="28-05-2024T10:15:31" hostname="ToanLa - DESKTOP-QSIPVT9" id="Test Suites/BBK/all-bbk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_101523\\BBK\\all-bbk\\20240528_101523"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_101523\\BBK\\all-bbk\\20240528_101523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.227.126"/>
+         <property name="sessionId" value="a18d566c2606f180a0cbe166fd4ddfab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/BBK/check-button-1" time="47.611" classname="Test Cases/BBK/check-button-1" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:15:31 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-1: Test Cases/BBK/check-button-1
+
+28-05-2024T10:15:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:15:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:15:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:15:46 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:15:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is visible
+
+28-05-2024T10:16:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:16:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed'. Try using Self-healing.
+
+28-05-2024T10:16:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superHeroBannerContainer']/div[2]/div/div/a/span'.
+
+28-05-2024T10:16:18 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Kelley Knows Cars'])[1]/following::span[1]'.
+
+28-05-2024T10:16:18 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ToanLa/git/katalon/Reports/Self-healing/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed_neighbor.png
+
+28-05-2024T10:16:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Kelley Knows Cars'])[1]/following::span[1]'.
+
+28-05-2024T10:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is visible
+
+28-05-2024T10:16:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:16:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-button-2" time="47.543" classname="Test Cases/BBK/check-button-2" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:16:18 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-2: Test Cases/BBK/check-button-2
+
+28-05-2024T10:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:16:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:16:33 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:16:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value' is visible
+
+28-05-2024T10:17:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]/div/div/a[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:17:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value'. Try using Self-healing.
+
+28-05-2024T10:17:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superHeroBannerContainer']/div[2]/div/div/a[2]/span'.
+
+28-05-2024T10:17:05 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Price New/Used'])[2]/following::span[1]'.
+
+28-05-2024T10:17:06 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ToanLa/git/katalon/Reports/Self-healing/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value_neighbor.png
+
+28-05-2024T10:17:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Price New/Used'])[2]/following::span[1]'.
+
+28-05-2024T10:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value' is visible
+
+28-05-2024T10:17:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:17:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-button-3" time="49.907" classname="Test Cases/BBK/check-button-3" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:17:06 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-3: Test Cases/BBK/check-button-3
+
+28-05-2024T10:17:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:17:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:17:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:17:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:17:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:17:18 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:17:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale' is visible
+
+28-05-2024T10:17:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]/div/div/a[3]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:17:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale'. Try using Self-healing.
+
+28-05-2024T10:17:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superHeroBannerContainer']/div[2]/div/div/a[3]/span'.
+
+28-05-2024T10:17:55 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Price New/Used'])[2]/following::span[2]'.
+
+28-05-2024T10:17:55 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ToanLa/git/katalon/Reports/Self-healing/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale_neighbor.png
+
+28-05-2024T10:17:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Price New/Used'])[2]/following::span[2]'.
+
+28-05-2024T10:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale' is visible
+
+28-05-2024T10:17:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:17:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-hero-banner" time="34.691" classname="Test Cases/BBK/check-hero-banner" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:17:56 - [TEST_CASE][PASSED] - Test Cases/BBK/check-hero-banner: Test Cases/BBK/check-hero-banner
+
+28-05-2024T10:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:17:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:17:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:17:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:17:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:17:58 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:17:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9' is visible
+
+28-05-2024T10:18:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:18:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9'. Try using Self-healing.
+
+28-05-2024T10:18:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superHeroBannerContainer']/div[2]'.
+
+28-05-2024T10:18:30 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::div[7]'.
+
+28-05-2024T10:18:30 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: C:\Users\ToanLa\git\katalon\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.227.126', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffba6fb0a27a6cbcc1c548cb8af6d58.
+
+28-05-2024T10:18:30 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: C:\Users\ToanLa\git\katalon\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.227.126', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffba6fb0a27a6cbcc1c548cb8af6d58.
+
+28-05-2024T10:18:30 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: C:\Users\ToanLa\git\katalon\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.227.126', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50870}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ffba6fb0a27a6cbcc1c548cb8af6d58.
+
+28-05-2024T10:18:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::div[7]'.
+
+28-05-2024T10:18:30 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9' is visible
+
+28-05-2024T10:18:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:18:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-logo" time="31.43" classname="Test Cases/BBK/check-logo" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:18:31 - [TEST_CASE][PASSED] - Test Cases/BBK/check-logo: Test Cases/BBK/check-logo
+
+28-05-2024T10:18:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:18:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:18:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:18:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:18:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:18:33 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:18:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img' is visible
+
+28-05-2024T10:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img' is visible
+
+28-05-2024T10:19:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:19:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-shop-mart-label" time="13.024" classname="Test Cases/BBK/check-shop-mart-label" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:19:02 - [TEST_CASE][PASSED] - Test Cases/BBK/check-shop-mart-label: Test Cases/BBK/check-shop-mart-label
+
+28-05-2024T10:19:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:19:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:19:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:19:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:19:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:11 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart"), "Shop Smart"): Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' are matched.
+
+28-05-2024T10:19:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' are matched.
+
+28-05-2024T10:19:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:19:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-shop-mart" time="15.391" classname="Test Cases/BBK/check-shop-mart" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:19:15 - [TEST_CASE][PASSED] - Test Cases/BBK/check-shop-mart: Test Cases/BBK/check-shop-mart
+
+28-05-2024T10:19:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:19:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:19:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:19:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:19:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:28 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' is visible
+
+28-05-2024T10:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' is visible
+
+28-05-2024T10:19:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:19:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-slogan" time="75.469" classname="Test Cases/BBK/check-slogan" status="PASSED">
+         <system-out><![CDATA[28-05-2024T10:19:30 - [TEST_CASE][PASSED] - Test Cases/BBK/check-slogan: Test Cases/BBK/check-slogan
+
+28-05-2024T10:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T10:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T10:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T10:19:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T10:19:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:41 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+28-05-2024T10:19:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' is visible
+
+28-05-2024T10:20:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:20:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars'. Try using Self-healing.
+
+28-05-2024T10:20:13 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superHeroBannerContainer']/div[2]/h1'.
+
+28-05-2024T10:20:14 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::h1[1]'.
+
+28-05-2024T10:20:14 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ToanLa/git/katalon/Reports/Self-healing/Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars_neighbor.png
+
+28-05-2024T10:20:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::h1[1]'.
+
+28-05-2024T10:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' is visible
+
+28-05-2024T10:20:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars"), "Kelley Knows Cars"): Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' are matched.
+
+28-05-2024T10:20:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superHeroBannerContainer']/div[2]/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+28-05-2024T10:20:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars'. Try using Self-healing.
+
+28-05-2024T10:20:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Recalls'])[1]/following::h1[1]'.
+
+28-05-2024T10:20:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' are matched.
+
+28-05-2024T10:20:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T10:20:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T10:15:31 - [TEST_SUITE][PASSED] - all-bbk: Test Cases/BBK/check-slogan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

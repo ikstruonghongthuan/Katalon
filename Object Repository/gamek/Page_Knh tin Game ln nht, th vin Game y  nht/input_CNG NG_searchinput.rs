@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ef6c2702-3344-45f9-9ae6-c47a18c94d5c</webElementGuid>
+      <webElementGuid>306991c9-c2d1-4b89-8e3f-3054ece409a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>searchinput</value>
-      <webElementGuid>bbc4cd81-59c6-43b9-bb96-e6efb8195663</webElementGuid>
+      <webElementGuid>81ce7552-65ba-4100-9f1b-85b139b1f748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>97bcd985-3d5e-4053-9343-3fbffb6c8e17</webElementGuid>
+      <webElementGuid>d62efac8-59d7-41d9-9110-7474c65bd745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Tìm kiếm...</value>
-      <webElementGuid>8e0f2bdb-1573-4884-90b0-8119183b0873</webElementGuid>
+      <webElementGuid>5ed8cb96-e9d9-456d-bf3e-b0bdd66b5a54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onfocus</name>
       <type>Main</type>
       <value>HideText()</value>
-      <webElementGuid>33c6ecad-6206-44ba-9717-6e36be56d158</webElementGuid>
+      <webElementGuid>6c5b805c-5d8b-4ec2-a04e-557104cf9a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>onblur</name>
       <type>Main</type>
       <value>ShowText()</value>
-      <webElementGuid>7a6470d7-0c3b-4759-b497-34f42dba419e</webElementGuid>
+      <webElementGuid>e68f6d6e-d217-436b-be1b-76d5e318f767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>onkeypress</name>
       <type>Main</type>
       <value>return BBEnterPress1(event)</value>
-      <webElementGuid>b059601e-07f7-4f73-9124-454f1bb7d549</webElementGuid>
+      <webElementGuid>6eaa942d-6900-4c99-b287-382dce918ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;searchinput&quot;)</value>
-      <webElementGuid>a495d6a4-3f84-42f0-a28f-ad39ff9bd65e</webElementGuid>
+      <webElementGuid>beb0f3f2-4434-4a5d-9cad-0787de6b5186</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='searchinput']</value>
-      <webElementGuid>1ce058b8-2f30-4e56-bb68-a00ee8fceda8</webElementGuid>
+      <webElementGuid>1dfed8dd-01de-4443-9faf-f3330f888b00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='admWrapsite']/div/div/div/div[2]/ul/li[8]/input</value>
-      <webElementGuid>a01a5bcb-463a-46b8-8557-f4b4357a47d6</webElementGuid>
+      <webElementGuid>27ea6aa8-d447-49fe-952a-92b867b8a780</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>55c9db9d-7ee6-43e7-bbc4-5dcec6dad4c9</webElementGuid>
+      <webElementGuid>c2aba94b-c582-450a-a58b-648aaf2d0a61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'searchinput' and @type = 'text']</value>
-      <webElementGuid>7e58ecf5-af5a-4487-aeec-d3e5b7c55476</webElementGuid>
+      <webElementGuid>47eecebd-53a6-4d8e-adf9-35dc0bedb5de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

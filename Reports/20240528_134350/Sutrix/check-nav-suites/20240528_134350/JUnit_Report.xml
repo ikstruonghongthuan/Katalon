@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="check-nav-suites" time="81.488" tests="11" failures="0" errors="0">
+   <testsuite name="check-nav-suites" tests="11" failures="0" errors="0" time="81.488" skipped="0" timestamp="28-05-2024T13:43:59" hostname="ToanLa - DESKTOP-QSIPVT9" id="Test Suites/Sutrix/check-nav-suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_134350\\Sutrix\\check-nav-suites\\20240528_134350"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_134350\\Sutrix\\check-nav-suites\\20240528_134350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.227.126"/>
+         <property name="sessionId" value="2f0d55c5c4222878e9b18e0807f3a466"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Sutrix/check-banner" time="8.921" classname="Test Cases/Sutrix/check-banner" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:43:59 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-banner: Test Cases/Sutrix/check-banner
+
+28-05-2024T13:43:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:02 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:06 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_We use cookiesHi, this website uses ess_7bae85")): Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_We use cookiesHi, this website uses ess_7bae85' is visible
+
+28-05-2024T13:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_We use cookiesHi, this website uses ess_7bae85' is visible
+
+28-05-2024T13:44:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-contact-us-button" time="9.362" classname="Test Cases/Sutrix/check-contact-us-button" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:08 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-contact-us-button: Test Cases/Sutrix/check-contact-us-button
+
+28-05-2024T13:44:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:09 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:14 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Contact Us")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Contact Us' is clicked on
+
+28-05-2024T13:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Contact Us' is clicked on
+
+28-05-2024T13:44:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-footer" time="8.316" classname="Test Cases/Sutrix/check-footer" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:17 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-footer: Test Cases/Sutrix/check-footer
+
+28-05-2024T13:44:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:18 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:22 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_About")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_About' is clicked on
+
+28-05-2024T13:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_About' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-logo" time="5.849" classname="Test Cases/Sutrix/check-logo" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:25 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-logo: Test Cases/Sutrix/check-logo
+
+28-05-2024T13:44:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-05-2024T13:44:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:27 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:30 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/img_About_logo-white")): Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/img_About_logo-white' is visible
+
+28-05-2024T13:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/img_About_logo-white' is visible
+
+28-05-2024T13:44:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-menu" time="5.992" classname="Test Cases/Sutrix/check-menu" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:31 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-menu: Test Cases/Sutrix/check-menu
+
+28-05-2024T13:44:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:32 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:36 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_AboutServicesWorkApproachPartnershipsVi_85df2e")): Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_AboutServicesWorkApproachPartnershipsVi_85df2e' is visible
+
+28-05-2024T13:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_AboutServicesWorkApproachPartnershipsVi_85df2e' is visible
+
+28-05-2024T13:44:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-slogan-text" time="7.888" classname="Test Cases/Sutrix/check-slogan-text" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:37 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-slogan-text: Test Cases/Sutrix/check-slogan-text
+
+28-05-2024T13:44:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:38 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:42 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Accept all")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Accept all' is clicked on
+
+28-05-2024T13:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Accept all' is clicked on
+
+28-05-2024T13:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_Build Compelling ExperiencesWith over 2_5e97cc")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_Build Compelling ExperiencesWith over 2_5e97cc' is clicked on
+
+28-05-2024T13:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/div_Build Compelling ExperiencesWith over 2_5e97cc' is clicked on
+
+28-05-2024T13:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Contact Us_btn btn-scroll-to")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Contact Us_btn btn-scroll-to' is clicked on
+
+28-05-2024T13:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/button_Contact Us_btn btn-scroll-to' is clicked on
+
+28-05-2024T13:44:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/check-visit-japans-site" time="7.546" classname="Test Cases/Sutrix/check-visit-japans-site" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:45 - [TEST_CASE][PASSED] - Test Cases/Sutrix/check-visit-japans-site: Test Cases/Sutrix/check-visit-japans-site
+
+28-05-2024T13:44:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:46 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:50 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site"), 0): Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site' is visible
+
+28-05-2024T13:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-05-2024T13:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site' is visible
+
+28-05-2024T13:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site' is clicked on
+
+28-05-2024T13:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Visit Japan Site' is clicked on
+
+28-05-2024T13:44:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:44:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/click-approaches" time="7.459" classname="Test Cases/Sutrix/click-approaches" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:44:53 - [TEST_CASE][PASSED] - Test Cases/Sutrix/click-approaches: Test Cases/Sutrix/click-approaches
+
+28-05-2024T13:44:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:44:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:44:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:44:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:44:54 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:57 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:44:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach"), 0): Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach' is visible
+
+28-05-2024T13:44:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-05-2024T13:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach' is visible
+
+28-05-2024T13:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach' is clicked on
+
+28-05-2024T13:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Approach' is clicked on
+
+28-05-2024T13:45:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:45:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/click-service" time="4.443" classname="Test Cases/Sutrix/click-service" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:45:00 - [TEST_CASE][PASSED] - Test Cases/Sutrix/click-service: Test Cases/Sutrix/click-service
+
+28-05-2024T13:45:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:45:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:45:01 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:05 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:45:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/click-work" time="7.374" classname="Test Cases/Sutrix/click-work" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:45:05 - [TEST_CASE][PASSED] - Test Cases/Sutrix/click-work: Test Cases/Sutrix/click-work
+
+28-05-2024T13:45:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:45:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:45:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:45:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:45:06 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:09 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Work")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Work' is clicked on
+
+28-05-2024T13:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Work' is clicked on
+
+28-05-2024T13:45:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:45:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sutrix/partner-click" time="8.018" classname="Test Cases/Sutrix/partner-click" status="PASSED">
+         <system-out><![CDATA[28-05-2024T13:45:12 - [TEST_CASE][PASSED] - Test Cases/Sutrix/partner-click: Test Cases/Sutrix/partner-click
+
+28-05-2024T13:45:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T13:45:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T13:45:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T13:45:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T13:45:13 - [TEST_STEP][PASSED] - navigateToUrl("https://sutrixgroup.com/en/"): Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:16 - [MESSAGE][PASSED] - Navigate to 'https://sutrixgroup.com/en/' successfully
+
+28-05-2024T13:45:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Partnerships")): Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Partnerships' is clicked on
+
+28-05-2024T13:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Sutrix/Page_Sutrix Group  Global System Integrator/a_Partnerships' is clicked on
+
+28-05-2024T13:45:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T13:45:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T13:43:59 - [TEST_SUITE][PASSED] - check-nav-suites: Test Cases/Sutrix/partner-click]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
