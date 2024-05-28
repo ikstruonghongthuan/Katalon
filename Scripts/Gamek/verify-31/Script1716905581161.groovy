@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://tinhte.vn/')
 
-WebUI.navigateToUrl('https://tinhte.vn/')
-
 WebUI.setText(findTestObject('Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search (1)'), 
     '1')
 
