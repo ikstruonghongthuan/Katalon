@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test-game-k" time="413.229" tests="32" failures="2" errors="0">
+   <testsuite name="test-game-k" tests="32" failures="2" errors="0" time="413.229" skipped="0" timestamp="29-05-2024T00:50:31" hostname="ToanLa - DESKTOP-QSIPVT9.mshome.net" id="Test Suites/test-game-k">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918638338.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918644077.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918648928.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918653881.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918905879.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918942474.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918978582.png, C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716919015560.png"/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9.mshome.net"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.1"/>
+         <property name="sessionId" value="fbef03e33b43c00b2cc20545c10131b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Gamek/Test-footer" time="4.84" classname="Test Cases/Gamek/Test-footer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Gamek/Test-footer FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)&#xa;	at Test-footer.run(Test-footer:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[29-05-2024T00:50:49 - [TEST_CASE][FAILED] - Test Cases/Gamek/Test-footer: Test Cases/Gamek/Test-footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+29-05-2024T00:50:49 - [TEST_STEP][PASSED] - openBrowser("https://gamek.vn/"): Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:50:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-05-2024T00:50:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:50:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_TRANG CHGAME ONLINETH TRNGPC CONSOLEeSP_1d90e4")): Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_TRANG CHGAME ONLINETH TRNGPC CONSOLEeSP_1d90e4' is clicked on
+
+29-05-2024T00:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_TRANG CHGAME ONLINETH TRNGPC CONSOLEeSP_1d90e4' is clicked on
+
+29-05-2024T00:50:53 - [TEST_STEP][FAILED] - verifyElementHasAttribute(findTestObject("Page_Knh tin Game ln nht, th vin Game y  nht/p_Copyright 2007 - 2024  Cng ty C phn VCCor_a9ed15"), "", 0): Unable to verify if object has attribute (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Script1716828194308.run(Script1716828194308.groovy:24)
+	... 18 more
+)
+
+29-05-2024T00:50:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Knh tin Game ln nht, th vin Game y  nht/p_Copyright 2007 - 2024  Cng ty C phn VCCor_a9ed15' does not exist
+
+29-05-2024T00:50:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+29-05-2024T00:50:54 - [MESSAGE][FAILED] - Unable to verify if object has attribute (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Script1716828194308.run(Script1716828194308.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716918653881.png]]]]></system-out>
+         <system-err><![CDATA[29-05-2024T00:50:49 - [TEST_CASE][FAILED] - Test Cases/Gamek/Test-footer: Test Cases/Gamek/Test-footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Test_button" time="6.253" classname="Test Cases/Gamek/Test_button" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:50:54 - [TEST_CASE][PASSED] - Test Cases/Gamek/Test_button: Test Cases/Gamek/Test_button
+
+29-05-2024T00:50:54 - [TEST_STEP][PASSED] - openBrowser("https://gamek.vn/"): Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:50:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-05-2024T00:50:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:50:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:50:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:50:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a_eSPORTS")): Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a_eSPORTS' is clicked on
+
+29-05-2024T00:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a_eSPORTS' is clicked on
+
+29-05-2024T00:50:59 - [TEST_STEP][PASSED] - navigateToUrl("https://gamek.vn/esport.chn"): Navigate to 'https://gamek.vn/esport.chn' successfully
+
+29-05-2024T00:51:00 - [MESSAGE][PASSED] - Navigate to 'https://gamek.vn/esport.chn' successfully
+
+29-05-2024T00:51:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/test_logo" time="5.762" classname="Test Cases/Gamek/test_logo" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:00 - [TEST_CASE][PASSED] - Test Cases/Gamek/test_logo: Test Cases/Gamek/test_logo
+
+29-05-2024T00:51:00 - [TEST_STEP][PASSED] - openBrowser("https://gamek.vn/"): Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:51:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:51:03 - [TEST_STEP][PASSED] - navigateToUrl("https://gamek.vn/"): Navigate to 'https://gamek.vn/' successfully
+
+29-05-2024T00:51:04 - [MESSAGE][PASSED] - Navigate to 'https://gamek.vn/' successfully
+
+29-05-2024T00:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a")): Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a' is clicked on
+
+29-05-2024T00:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a' is clicked on
+
+29-05-2024T00:51:06 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+29-05-2024T00:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Test_search" time="9.409" classname="Test Cases/Gamek/Test_search" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:06 - [TEST_CASE][PASSED] - Test Cases/Gamek/Test_search: Test Cases/Gamek/Test_search
+
+29-05-2024T00:51:06 - [TEST_STEP][PASSED] - openBrowser("https://gamek.vn/"): Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:51:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/input_CNG NG_searchinput"), "Game hay"): Text 'Game hay' is set on object 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/input_CNG NG_searchinput'
+
+29-05-2024T00:51:10 - [MESSAGE][PASSED] - Text 'Game hay' is set on object 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/input_CNG NG_searchinput'
+
+29-05-2024T00:51:10 - [TEST_STEP][PASSED] - navigateToUrl("https://gamek.vn/tim-kiem.chn?keyword=Game%20hay"): Navigate to 'https://gamek.vn/tim-kiem.chn?keyword=Game%20hay' successfully
+
+29-05-2024T00:51:10 - [MESSAGE][PASSED] - Navigate to 'https://gamek.vn/tim-kiem.chn?keyword=Game%20hay' successfully
+
+29-05-2024T00:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang tm kim - Knh tin Game ln nht, th_c5ca43/a_Epic pht tng min ph Game hay nht th gii g_8f3fa6")): Object: 'Object Repository/gamek/Page_Trang tm kim - Knh tin Game ln nht, th_c5ca43/a_Epic pht tng min ph Game hay nht th gii g_8f3fa6' is clicked on
+
+29-05-2024T00:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang tm kim - Knh tin Game ln nht, th_c5ca43/a_Epic pht tng min ph Game hay nht th gii g_8f3fa6' is clicked on
+
+29-05-2024T00:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Epic pht tng min ph Game hay nht th gi_8a0179/h1_Epic pht tng min ph Game hay nht th gii _4a7cdb")): Object: 'Object Repository/gamek/Page_Epic pht tng min ph Game hay nht th gi_8a0179/h1_Epic pht tng min ph Game hay nht th gii _4a7cdb' is clicked on
+
+29-05-2024T00:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Epic pht tng min ph Game hay nht th gi_8a0179/h1_Epic pht tng min ph Game hay nht th gii _4a7cdb' is clicked on
+
+29-05-2024T00:51:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Verify-1" time="2.399" classname="Test Cases/Gamek/Verify-1" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:15 - [TEST_CASE][PASSED] - Test Cases/Gamek/Verify-1: Test Cases/Gamek/Verify-1
+
+29-05-2024T00:51:16 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:51:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:51:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-10" time="5.346" classname="Test Cases/Gamek/verify-10" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:18 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-10: Test Cases/Gamek/verify-10
+
+29-05-2024T00:51:18 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Xem mua lun/a_Xe")): Object: 'Object Repository/gamek/Page_Xem mua lun/a_Xe' is clicked on
+
+29-05-2024T00:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Xem mua lun/a_Xe' is clicked on
+
+29-05-2024T00:51:22 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/xe.chn"): Navigate to 'https://genk.vn/xe.chn' successfully
+
+29-05-2024T00:51:23 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/xe.chn' successfully
+
+29-05-2024T00:51:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-11" time="15.118" classname="Test Cases/Gamek/verify-11" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:23 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-11: Test Cases/Gamek/verify-11
+
+29-05-2024T00:51:23 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:27 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/kham-pha.chn"): Navigate to 'https://genk.vn/kham-pha.chn' successfully
+
+29-05-2024T00:51:28 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/kham-pha.chn' successfully
+
+29-05-2024T00:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Khm ph khoa hc v cng ngh ton cu cp nht 247/a_B n v ngi cha g cao nht th gii, c xy dng _3a22eb")): Object: 'Object Repository/gamek/Page_Khm ph khoa hc v cng ngh ton cu cp nht 247/a_B n v ngi cha g cao nht th gii, c xy dng _3a22eb' is clicked on
+
+29-05-2024T00:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Khm ph khoa hc v cng ngh ton cu cp nht 247/a_B n v ngi cha g cao nht th gii, c xy dng _3a22eb' is clicked on
+
+29-05-2024T00:51:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_Ngy123456789101112131415161718192021_8e03e4"), "28", true): All options with value '28' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_Ngy123456789101112131415161718192021_8e03e4'  using regular expression
+
+29-05-2024T00:51:36 - [MESSAGE][PASSED] - All options with value '28' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_Ngy123456789101112131415161718192021_8e03e4'  using regular expression
+
+29-05-2024T00:51:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_ThngThng 1Thng 2Thng 3Thng 4Thng 5Th_e54b33"), "5", true): All options with value '5' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_ThngThng 1Thng 2Thng 3Thng 4Thng 5Th_e54b33'  using regular expression
+
+29-05-2024T00:51:37 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_ThngThng 1Thng 2Thng 3Thng 4Thng 5Th_e54b33'  using regular expression
+
+29-05-2024T00:51:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_20242023202220212020"), "2024", true): All options with value '2024' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_20242023202220212020'  using regular expression
+
+29-05-2024T00:51:38 - [MESSAGE][PASSED] - All options with value '2024' are selected in object 'Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_20242023202220212020'  using regular expression
+
+29-05-2024T00:51:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-12" time="7.945" classname="Test Cases/Gamek/verify-12" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:38 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-12: Test Cases/Gamek/verify-12
+
+29-05-2024T00:51:38 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img' is clicked on
+
+29-05-2024T00:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img' is clicked on
+
+29-05-2024T00:51:44 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/"): Navigate to 'https://genk.vn/' successfully
+
+29-05-2024T00:51:45 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/' successfully
+
+29-05-2024T00:51:45 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img' is right clicked on
+
+29-05-2024T00:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img' is right clicked on
+
+29-05-2024T00:51:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-18" time="8.479" classname="Test Cases/Gamek/verify-18" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:46 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-18: Test Cases/Gamek/verify-18
+
+29-05-2024T00:51:46 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:50 - [TEST_STEP][PASSED] - navigateToUrl("https://kenh14.vn/"): Navigate to 'https://kenh14.vn/' successfully
+
+29-05-2024T00:51:54 - [MESSAGE][PASSED] - Navigate to 'https://kenh14.vn/' successfully
+
+29-05-2024T00:51:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:51:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Verify-19" time="6.421" classname="Test Cases/Gamek/Verify-19" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:51:55 - [TEST_CASE][PASSED] - Test Cases/Gamek/Verify-19: Test Cases/Gamek/Verify-19
+
+29-05-2024T00:51:55 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:51:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:51:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:51:58 - [TEST_STEP][PASSED] - navigateToUrl("https://cafebiz.vn/"): Navigate to 'https://cafebiz.vn/' successfully
+
+29-05-2024T00:52:01 - [MESSAGE][PASSED] - Navigate to 'https://cafebiz.vn/' successfully
+
+29-05-2024T00:52:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-2" time="3.977" classname="Test Cases/Gamek/verify-2" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:01 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-2: Test Cases/Gamek/verify-2
+
+29-05-2024T00:52:01 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:52:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:52:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Google/textarea_ng nhp_q"), "sổ xố kienses thiết"): Text 'sổ xố kienses thiết' is set on object 'Object Repository/gamek/Page_Google/textarea_ng nhp_q'
+
+29-05-2024T00:52:04 - [MESSAGE][PASSED] - Text 'sổ xố kienses thiết' is set on object 'Object Repository/gamek/Page_Google/textarea_ng nhp_q'
+
+29-05-2024T00:52:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com.vn/search?q=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&sca_esv=8a43c4591a19e45c&sca_upv=1&source=hp&ei=6d1VZsbAMfKovr0PmNmFoQ0&iflsig=AL9hbdgAAAAAZlXr-eqlfoyhtzDZP5qAILAhBBvEh3_K&udm=&ved=0ahUKEwiG2YPLu7CGAxVylK8BHZhsIdQQ4dUDCA0&uact=5&oq=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&gs_lp=Egdnd3Mtd2l6Ihlz4buVIHjhu5Ega2llbnNlcyB0aGnhur90MgkQABiABBgKGA0yCBAAGBYYChgeMggQABgWGAoYHjIIEAAYFhgKGB4yCBAAGBYYChgeMggQABiiBBiJBUi3SlDjEligN3AReACQAQSYAasCoAHAF6oBBjcuMTEuNLgBA8gBAPgBAZgCIqACtg-oAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICBRAuGIAEwgIIEAAYgAQYsQPCAg4QLhiABBixAxjHARivAcICBBAAGAPCAg0QABiABBixAxiDARgKwgIKEAAYgAQYsQMYCsICBxAAGIAEGArCAgYQABgDGAqYAwiSBwcyMy4xMC4xoAe9qgE&sclient=gws-wiz"): Navigate to 'https://www.google.com.vn/search?q=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&sca_esv=8a43c4591a19e45c&sca_upv=1&source=hp&ei=6d1VZsbAMfKovr0PmNmFoQ0&iflsig=AL9hbdgAAAAAZlXr-eqlfoyhtzDZP5qAILAhBBvEh3_K&udm=&ved=0ahUKEwiG2YPLu7CGAxVylK8BHZhsIdQQ4dUDCA0&uact=5&oq=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&gs_lp=Egdnd3Mtd2l6Ihlz4buVIHjhu5Ega2llbnNlcyB0aGnhur90MgkQABiABBgKGA0yCBAAGBYYChgeMggQABgWGAoYHjIIEAAYFhgKGB4yCBAAGBYYChgeMggQABiiBBiJBUi3SlDjEligN3AReACQAQSYAasCoAHAF6oBBjcuMTEuNLgBA8gBAPgBAZgCIqACtg-oAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICBRAuGIAEwgIIEAAYgAQYsQPCAg4QLhiABBixAxjHARivAcICBBAAGAPCAg0QABiABBixAxiDARgKwgIKEAAYgAQYsQMYCsICBxAAGIAEGArCAgYQABgDGAqYAwiSBwcyMy4xMC4xoAe9qgE&sclient=gws-wiz' successfully
+
+29-05-2024T00:52:05 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com.vn/search?q=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&sca_esv=8a43c4591a19e45c&sca_upv=1&source=hp&ei=6d1VZsbAMfKovr0PmNmFoQ0&iflsig=AL9hbdgAAAAAZlXr-eqlfoyhtzDZP5qAILAhBBvEh3_K&udm=&ved=0ahUKEwiG2YPLu7CGAxVylK8BHZhsIdQQ4dUDCA0&uact=5&oq=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&gs_lp=Egdnd3Mtd2l6Ihlz4buVIHjhu5Ega2llbnNlcyB0aGnhur90MgkQABiABBgKGA0yCBAAGBYYChgeMggQABgWGAoYHjIIEAAYFhgKGB4yCBAAGBYYChgeMggQABiiBBiJBUi3SlDjEligN3AReACQAQSYAasCoAHAF6oBBjcuMTEuNLgBA8gBAPgBAZgCIqACtg-oAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICBRAuGIAEwgIIEAAYgAQYsQPCAg4QLhiABBixAxjHARivAcICBBAAGAPCAg0QABiABBixAxiDARgKwgIKEAAYgAQYsQMYCsICBxAAGIAEGArCAgYQABgDGAqYAwiSBwcyMy4xMC4xoAe9qgE&sclient=gws-wiz' successfully
+
+29-05-2024T00:52:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-20" time="4.979" classname="Test Cases/Gamek/verify-20" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:05 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-20: Test Cases/Gamek/verify-20
+
+29-05-2024T00:52:05 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Xem - Mua - Lun")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Xem - Mua - Lun' is clicked on
+
+29-05-2024T00:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Xem - Mua - Lun' is clicked on
+
+29-05-2024T00:52:10 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/xem-mua-luon.chn"): Navigate to 'https://genk.vn/xem-mua-luon.chn' successfully
+
+29-05-2024T00:52:10 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/xem-mua-luon.chn' successfully
+
+29-05-2024T00:52:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-21" time="5.437" classname="Test Cases/Gamek/verify-21" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:10 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-21: Test Cases/Gamek/verify-21
+
+29-05-2024T00:52:10 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_chi s_i-expand")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_chi s_i-expand' is clicked on
+
+29-05-2024T00:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_chi s_i-expand' is clicked on
+
+29-05-2024T00:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Mobile")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Mobile' is clicked on
+
+29-05-2024T00:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Mobile' is clicked on
+
+29-05-2024T00:52:15 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/mobile.chn"): Navigate to 'https://genk.vn/mobile.chn' successfully
+
+29-05-2024T00:52:15 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/mobile.chn' successfully
+
+29-05-2024T00:52:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-22" time="6.876" classname="Test Cases/Gamek/verify-22" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:16 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-22: Test Cases/Gamek/verify-22
+
+29-05-2024T00:52:16 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:52:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch' is clicked on
+
+29-05-2024T00:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch' is clicked on
+
+29-05-2024T00:52:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/p_Hc lm AI_searchinput"), "hellp"): Text 'hellp' is set on object 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/p_Hc lm AI_searchinput'
+
+29-05-2024T00:52:20 - [MESSAGE][PASSED] - Text 'hellp' is set on object 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/p_Hc lm AI_searchinput'
+
+29-05-2024T00:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch")): Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch' is clicked on
+
+29-05-2024T00:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch' is clicked on
+
+29-05-2024T00:52:22 - [TEST_STEP][PASSED] - navigateToUrl("https://genk.vn/tim-kiem.chn?keywords=hellp"): Navigate to 'https://genk.vn/tim-kiem.chn?keywords=hellp' successfully
+
+29-05-2024T00:52:22 - [MESSAGE][PASSED] - Navigate to 'https://genk.vn/tim-kiem.chn?keywords=hellp' successfully
+
+29-05-2024T00:52:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-23" time="7.102" classname="Test Cases/Gamek/verify-23" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:22 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-23: Test Cases/Gamek/verify-23
+
+29-05-2024T00:52:23 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-24" time="16.125" classname="Test Cases/Gamek/verify-24" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:30 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-24: Test Cases/Gamek/verify-24
+
+29-05-2024T00:52:30 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Tinhte")): Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Tinhte' is clicked on
+
+29-05-2024T00:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Tinhte' is clicked on
+
+29-05-2024T00:52:41 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/"): Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:52:43 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search"), "helloasd"): Text 'helloasd' is set on object 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search'
+
+29-05-2024T00:52:44 - [MESSAGE][PASSED] - Text 'helloasd' is set on object 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search'
+
+29-05-2024T00:52:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search'
+
+29-05-2024T00:52:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search'
+
+29-05-2024T00:52:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:52:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-25" time="15.319" classname="Test Cases/Gamek/verify-25" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:52:46 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-25: Test Cases/Gamek/verify-25
+
+29-05-2024T00:52:46 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:52:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:52:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Mng x hi")): Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Mng x hi' is clicked on
+
+29-05-2024T00:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Mng x hi' is clicked on
+
+29-05-2024T00:52:58 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/"): Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:53:01 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:53:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-26" time="8.349" classname="Test Cases/Gamek/verify-26" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:01 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-26: Test Cases/Gamek/verify-26
+
+29-05-2024T00:53:01 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/span_Date_jsx-3867722346")): Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/span_Date_jsx-3867722346' is clicked on
+
+29-05-2024T00:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/span_Date_jsx-3867722346' is clicked on
+
+29-05-2024T00:53:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-27" time="11.974" classname="Test Cases/Gamek/verify-27" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:09 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-27: Test Cases/Gamek/verify-27
+
+29-05-2024T00:53:09 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Sn phm cng ngh mi")): Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Sn phm cng ngh mi' is clicked on
+
+29-05-2024T00:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Sn phm cng ngh mi' is clicked on
+
+29-05-2024T00:53:20 - [TEST_STEP][PASSED] - navigateToUrl("https://thuvien.tinhte.vn/"): Navigate to 'https://thuvien.tinhte.vn/' successfully
+
+29-05-2024T00:53:21 - [MESSAGE][PASSED] - Navigate to 'https://thuvien.tinhte.vn/' successfully
+
+29-05-2024T00:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-28" time="10.329" classname="Test Cases/Gamek/verify-28" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:21 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-28: Test Cases/Gamek/verify-28
+
+29-05-2024T00:53:21 - [TEST_STEP][PASSED] - openBrowser("https://fptshop.com.vn/"): Browser is opened with url: 'https://fptshop.com.vn/'
+
+29-05-2024T00:53:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://fptshop.com.vn/'
+
+29-05-2024T00:53:29 - [TEST_STEP][PASSED] - navigateToUrl("https://fptshop.com.vn/tim-kiem/iphone"): Navigate to 'https://fptshop.com.vn/tim-kiem/iphone' successfully
+
+29-05-2024T00:53:31 - [MESSAGE][PASSED] - Navigate to 'https://fptshop.com.vn/tim-kiem/iphone' successfully
+
+29-05-2024T00:53:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-29" time="16.57" classname="Test Cases/Gamek/verify-29" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:32 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-29: Test Cases/Gamek/verify-29
+
+29-05-2024T00:53:32 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:38 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/thread/decode-cam-bien-chuot-quang-hoat-dong-the-nao-toc-do-dpi-chuot-la-gi-co-can-toi-20-30-nghin-dpi.3791214/"): Navigate to 'https://tinhte.vn/thread/decode-cam-bien-chuot-quang-hoat-dong-the-nao-toc-do-dpi-chuot-la-gi-co-can-toi-20-30-nghin-dpi.3791214/' successfully
+
+29-05-2024T00:53:48 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/thread/decode-cam-bien-chuot-quang-hoat-dong-the-nao-toc-do-dpi-chuot-la-gi-co-can-toi-20-30-nghin-dpi.3791214/' successfully
+
+29-05-2024T00:53:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-3" time="2.724" classname="Test Cases/Gamek/verify-3" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:48 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-3: Test Cases/Gamek/verify-3
+
+29-05-2024T00:53:48 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:53:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:53:50 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/gamek/Page_Google/img_ng nhp_lnXdpd")): Object: 'Object Repository/gamek/Page_Google/img_ng nhp_lnXdpd' is right clicked on
+
+29-05-2024T00:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Google/img_ng nhp_lnXdpd' is right clicked on
+
+29-05-2024T00:53:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:53:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-30" time="9.825" classname="Test Cases/Gamek/verify-30" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:53:51 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-30: Test Cases/Gamek/verify-30
+
+29-05-2024T00:53:51 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:53:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:53:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:53:59 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/khcn/"): Navigate to 'https://tinhte.vn/khcn/' successfully
+
+29-05-2024T00:54:01 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/khcn/' successfully
+
+29-05-2024T00:54:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:54:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-31" time="12.786" classname="Test Cases/Gamek/verify-31" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:54:01 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-31: Test Cases/Gamek/verify-31
+
+29-05-2024T00:54:01 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:54:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:54:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:54:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:54:08 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/"): Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:54:12 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search (1)"), "1"): Text '1' is set on object 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search (1)'
+
+29-05-2024T00:54:13 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search (1)'
+
+29-05-2024T00:54:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:54:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-32" time="15.84" classname="Test Cases/Gamek/verify-32" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:54:14 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-32: Test Cases/Gamek/verify-32
+
+29-05-2024T00:54:14 - [TEST_STEP][PASSED] - openBrowser("https://tinhte.vn/"): Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:54:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:54:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:54:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tinhte.vn/'
+
+29-05-2024T00:54:21 - [TEST_STEP][PASSED] - navigateToUrl("https://tinhte.vn/"): Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:54:24 - [MESSAGE][PASSED] - Navigate to 'https://tinhte.vn/' successfully
+
+29-05-2024T00:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Mua bn camera")): Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Mua bn camera' is clicked on
+
+29-05-2024T00:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Mua bn camera' is clicked on
+
+29-05-2024T00:54:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:54:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Verify-4" time="37.0" classname="Test Cases/Gamek/Verify-4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Gamek/Verify-4 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Verify-4.run(Verify-4:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;o3j99 qarstb&quot;>...&lt;/div> is not clickable at point (510, 470). Other element would receive the click: &lt;span>...&lt;/span>&#xa;  (Session info: chrome=125.0.6422.112)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 279cad561cf1a275213e892c8bbe6d59&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[29-05-2024T00:56:18 - [TEST_CASE][FAILED] - Test Cases/Gamek/Verify-4: Test Cases/Gamek/Verify-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Verify-4.run(Verify-4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="o3j99 qarstb">...</div> is not clickable at point (510, 470). Other element would receive the click: <span>...</span>
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279cad561cf1a275213e892c8bbe6d59
+	at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+29-05-2024T00:56:18 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:56:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-05-2024T00:56:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:56:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:56:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:56:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/gamek/Page_Google/textarea_ng nhp_q"), "hello"): Text 'hello' is set on object 'Object Repository/gamek/Page_Google/textarea_ng nhp_q'
+
+29-05-2024T00:56:21 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/gamek/Page_Google/textarea_ng nhp_q'
+
+29-05-2024T00:56:21 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda")): Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Verify-4.run(Verify-4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="o3j99 qarstb">...</div> is not clickable at point (510, 470). Other element would receive the click: <span>...</span>
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279cad561cf1a275213e892c8bbe6d59
+	at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716903628752.run(Script1716903628752.groovy:24)
+	... 18 more
+)
+
+29-05-2024T00:56:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Verify-4.run(Verify-4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="o3j99 qarstb">...</div> is not clickable at point (510, 470). Other element would receive the click: <span>...</span>
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279cad561cf1a275213e892c8bbe6d59
+	at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1716903628752.run(Script1716903628752.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240529_005021\\test-game-k\\20240529_005021\\1716919015560.png]]]]></system-out>
+         <system-err><![CDATA[29-05-2024T00:56:18 - [TEST_CASE][FAILED] - Test Cases/Gamek/Verify-4: Test Cases/Gamek/Verify-4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Verify-4.run(Verify-4:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="o3j99 qarstb">...</div> is not clickable at point (510, 470). Other element would receive the click: <span>...</span>
+  (Session info: chrome=125.0.6422.112)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-QSIPVT9', ip: '192.168.0.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\ToanLa\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279cad561cf1a275213e892c8bbe6d59
+	at jdk.internal.reflect.GeneratedConstructorAccessor37.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-5" time="5.266" classname="Test Cases/Gamek/verify-5" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:56:55 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-5: Test Cases/Gamek/verify-5
+
+29-05-2024T00:56:55 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:56:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-05-2024T00:56:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:56:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:56:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Google/button_sau")): Object: 'Object Repository/gamek/Page_Google/button_sau' is clicked on
+
+29-05-2024T00:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Google/button_sau' is clicked on
+
+29-05-2024T00:56:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Google/a_Qung co")): Object: 'Object Repository/gamek/Page_Google/a_Qung co' is clicked on
+
+29-05-2024T00:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Google/a_Qung co' is clicked on
+
+29-05-2024T00:57:00 - [TEST_STEP][PASSED] - navigateToUrl("https://ads.google.com/intl/vi_vn/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"): Navigate to 'https://ads.google.com/intl/vi_vn/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1' successfully
+
+29-05-2024T00:57:00 - [MESSAGE][PASSED] - Navigate to 'https://ads.google.com/intl/vi_vn/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1' successfully
+
+29-05-2024T00:57:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-6" time="5.677" classname="Test Cases/Gamek/verify-6" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:57:01 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-6: Test Cases/Gamek/verify-6
+
+29-05-2024T00:57:01 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:57:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:57:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Google/a_Gii thiu")): Object: 'Object Repository/gamek/Page_Google/a_Gii thiu' is clicked on
+
+29-05-2024T00:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Google/a_Gii thiu' is clicked on
+
+29-05-2024T00:57:05 - [TEST_STEP][PASSED] - navigateToUrl("https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1"): Navigate to 'https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1' successfully
+
+29-05-2024T00:57:06 - [MESSAGE][PASSED] - Navigate to 'https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1' successfully
+
+29-05-2024T00:57:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-7" time="3.04" classname="Test Cases/Gamek/verify-7" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:57:06 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-7: Test Cases/Gamek/verify-7
+
+29-05-2024T00:57:06 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:57:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:57:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/search/howsearchworks/?fg=1"): Navigate to 'https://www.google.com/search/howsearchworks/?fg=1' successfully
+
+29-05-2024T00:57:09 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/search/howsearchworks/?fg=1' successfully
+
+29-05-2024T00:57:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-8" time="7.379" classname="Test Cases/Gamek/verify-8" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:57:09 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-8: Test Cases/Gamek/verify-8
+
+29-05-2024T00:57:09 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com.vn/"): Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:57:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:57:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com.vn/'
+
+29-05-2024T00:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/gamek/Page_Google/a_Quyn ring t")): Object: 'Object Repository/gamek/Page_Google/a_Quyn ring t' is clicked on
+
+29-05-2024T00:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Google/a_Quyn ring t' is clicked on
+
+29-05-2024T00:57:15 - [TEST_STEP][PASSED] - navigateToUrl("https://policies.google.com/privacy?hl=vi&fg=1"): Navigate to 'https://policies.google.com/privacy?hl=vi&fg=1' successfully
+
+29-05-2024T00:57:16 - [MESSAGE][PASSED] - Navigate to 'https://policies.google.com/privacy?hl=vi&fg=1' successfully
+
+29-05-2024T00:57:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/verify-9" time="3.712" classname="Test Cases/Gamek/verify-9" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:57:17 - [TEST_CASE][PASSED] - Test Cases/Gamek/verify-9: Test Cases/Gamek/verify-9
+
+29-05-2024T00:57:17 - [TEST_STEP][PASSED] - openBrowser("https://genk.vn/"): Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:57:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:57:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:57:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://genk.vn/'
+
+29-05-2024T00:57:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gamek/Verify-mobie" time="3.672" classname="Test Cases/Gamek/Verify-mobie" status="PASSED">
+         <system-out><![CDATA[29-05-2024T00:57:20 - [TEST_CASE][PASSED] - Test Cases/Gamek/Verify-mobie: Test Cases/Gamek/Verify-mobie
+
+29-05-2024T00:57:20 - [TEST_STEP][PASSED] - openBrowser("https://gamek.vn/"): Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:57:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-05-2024T00:57:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-05-2024T00:57:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gamek.vn/'
+
+29-05-2024T00:57:23 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/img_RSS_mb10")): Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/img_RSS_mb10' is right clicked on
+
+29-05-2024T00:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/img_RSS_mb10' is right clicked on
+
+29-05-2024T00:57:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_Copyright 2007 - 2024  Cng ty C phn VCC_c114ea")): Object 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_Copyright 2007 - 2024  Cng ty C phn VCC_c114ea' is visible
+
+29-05-2024T00:57:24 - [MESSAGE][PASSED] - Object 'Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_Copyright 2007 - 2024  Cng ty C phn VCC_c114ea' is visible
+
+29-05-2024T00:57:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-05-2024T00:57:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-05-2024T00:50:31 - [TEST_SUITE][FAILED] - test-game-k: Test Cases/Gamek/Test-footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-05-2024T00:50:31 - [TEST_SUITE][FAILED] - test-game-k: Test Cases/Gamek/Test-footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object has attribute
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.verifyElementHasAttribute(VerifyElementHasAttributeKeyword.groovy:100)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword.execute(VerifyElementHasAttributeKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementHasAttribute(WebUiBuiltInKeywords.groovy:4354)
+	at Test-footer.run(Test-footer:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716918621120.run(TempTestSuite1716918621120.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.doCall(VerifyElementHasAttributeKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementHasAttributeKeyword$_verifyElementHasAttribute_closure1.call(VerifyElementHasAttributeKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

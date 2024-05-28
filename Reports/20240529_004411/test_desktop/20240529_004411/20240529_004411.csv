@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_desktop,,,,29-05-2024 00:44:18,29-05-2024 00:44:25,6.746s,PASSED
+,,,,,,,
+Test Cases/Desktop-Testing,,,,29-05-2024 00:44:18,29-05-2024 00:44:25,6.509s,PASSED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Desktop Testing"")",,,,29-05-2024 00:44:18,29-05-2024 00:44:20,1.895s,PASSED
+"setText(findWindowsObject(""Object Repository/Document""), ""rtdhcjhvlhphoihoi fyfjkh xvcxvb hjhgigguoi iogoi"")",,,,29-05-2024 00:44:20,29-05-2024 00:44:24,3.786s,PASSED
+"clearText(findWindowsObject(""Object Repository/Button""))",,,,29-05-2024 00:44:24,29-05-2024 00:44:24,0.276s,PASSED
+"clearText(findWindowsObject(""Object Repository/Document""))",,,,29-05-2024 00:44:24,29-05-2024 00:44:25,0.221s,PASSED

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_desktop,,,,29-05-2024 00:45:02,29-05-2024 00:45:17,14.390s,PASSED
+,,,,,,,
+Test Cases/Desktop-Testing,,,,29-05-2024 00:45:03,29-05-2024 00:45:10,7.051s,PASSED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Desktop Testing"")",,,,29-05-2024 00:45:03,29-05-2024 00:45:05,2.202s,PASSED
+"setText(findWindowsObject(""Object Repository/Document""), ""rtdhcjhvlhphoihoi fyfjkh xvcxvb hjhgigguoi iogoi"")",,,,29-05-2024 00:45:05,29-05-2024 00:45:09,3.898s,PASSED
+"clearText(findWindowsObject(""Object Repository/Button""))",,,,29-05-2024 00:45:09,29-05-2024 00:45:10,0.285s,PASSED
+"clearText(findWindowsObject(""Object Repository/Document""))",,,,29-05-2024 00:45:10,29-05-2024 00:45:10,0.226s,PASSED
+,,,,,,,
+Test Cases/WinAppDriver-test,,,,29-05-2024 00:45:10,29-05-2024 00:45:17,7.075s,PASSED
+"startApplicationWithTitle(""C:\Windows\System32\notepad.exe"", ""notepad"")",,,,29-05-2024 00:45:10,29-05-2024 00:45:10,0.612s,PASSED
+"setText(findWindowsObject(""Object Repository/WinAppDriver/Document(2)""), ""Không hello đc không"")",,,,29-05-2024 00:45:10,29-05-2024 00:45:12,1.733s,PASSED
+closeApplication(),,,,29-05-2024 00:45:12,29-05-2024 00:45:17,4.667s,PASSED

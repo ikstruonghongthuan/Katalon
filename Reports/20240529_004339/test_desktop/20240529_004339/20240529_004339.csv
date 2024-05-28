@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_desktop,,,,29-05-2024 00:43:47,29-05-2024 00:43:50,2.293s,FAILED
+,,,,,,,
+Test Cases/Desktop-Testing,,,,29-05-2024 00:43:49,29-05-2024 00:43:50,0.084s,FAILED
+"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Desktop Testing"")",,,,29-05-2024 00:43:49,29-05-2024 00:43:50,0.054s,FAILED
