@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>24bba37b-aa4b-4ba9-8ec6-6fa0a5589716</webElementGuid>
+      <webElementGuid>a68548f4-026c-4875-aca2-30a7e8f7eb65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>title</name>
       <type>Main</type>
       <value>eSPORT</value>
-      <webElementGuid>8ecb884e-0894-46f4-aae6-2800497fb7f8</webElementGuid>
+      <webElementGuid>af1a2331-1fb3-49bb-87e5-1a3e8de04ad9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/esport.chn</value>
-      <webElementGuid>234de273-2fe3-4303-81cd-1ef7f9d1e4ef</webElementGuid>
+      <webElementGuid>3a48dff2-c8b1-4740-99cf-fb1360809da4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>eSPORTS</value>
-      <webElementGuid>ba6b7c8f-f04f-4656-be5b-07d4b3fa0ba7</webElementGuid>
+      <webElementGuid>93bee6a6-31e4-4c43-bc03-34956ddad3ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;admWrapsite&quot;)/div[@class=&quot;wp1000 wfull&quot;]/div[@class=&quot;wp1000&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;menu&quot;]/ul[1]/li[@class=&quot;normal&quot;]/a[1]</value>
-      <webElementGuid>cf2c76de-109b-4e8e-9e41-b58082288de0</webElementGuid>
+      <webElementGuid>16aab870-500c-42cf-a805-5bb4787190e7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='admWrapsite']/div/div/div/div[2]/ul/li[3]/a</value>
-      <webElementGuid>73abe34a-ee1b-40f9-9d8b-2b0253627a1a</webElementGuid>
+      <webElementGuid>a7efd63f-e54f-4997-8ac2-db9e6f0c448f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'eSPORTS')]</value>
-      <webElementGuid>96fb083f-59e3-4efb-9a2f-176b1ad506e5</webElementGuid>
+      <webElementGuid>5230ca50-244c-4425-b0e0-7f603bcec569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GAME MOBILE'])[1]/following::a[1]</value>
-      <webElementGuid>7674529f-452e-45f1-94e9-d995afe3563a</webElementGuid>
+      <webElementGuid>720bfccc-12f3-4fdd-affe-1a0d34130ccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KHÁM PHÁ'])[1]/preceding::a[1]</value>
-      <webElementGuid>348c50ba-0309-4582-898c-33a1f6ee316e</webElementGuid>
+      <webElementGuid>cf8ba1af-bd27-4a07-92c2-bb6549cf1623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MANGA/FILM'])[1]/preceding::a[2]</value>
-      <webElementGuid>3847dc35-91f4-409c-9161-dfe3843fe988</webElementGuid>
+      <webElementGuid>75fddf1f-b515-48f4-99d7-f5f6a404dac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='eSPORTS']/parent::*</value>
-      <webElementGuid>8948d8b3-ac4d-4f36-9b26-02d5b376c92c</webElementGuid>
+      <webElementGuid>3bf35398-6478-499f-b612-f849c9276d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/esport.chn')]</value>
-      <webElementGuid>88594139-2f0e-40a7-8d63-00ee8d24d0df</webElementGuid>
+      <webElementGuid>8ab2baed-3625-44ff-9986-3d53a1e8ad49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/a</value>
-      <webElementGuid>71670189-3894-4977-bcb9-4069407a7b27</webElementGuid>
+      <webElementGuid>e09a581a-7f51-45ea-877e-bcac81c87459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@title = 'eSPORT' and @href = '/esport.chn' and (text() = 'eSPORTS' or . = 'eSPORTS')]</value>
-      <webElementGuid>18c90e88-1bae-4e46-96a2-232577c83d18</webElementGuid>
+      <webElementGuid>1e6f60d4-19a0-4310-9195-7c78d44a2863</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
