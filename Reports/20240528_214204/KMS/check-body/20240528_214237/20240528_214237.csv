@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-body,Chrome 125.0.0.0,,,28-05-2024 21:45:51,28-05-2024 21:46:13,22.120s,PASSED
+,,,,,,,
+Test Cases/KMS/KMS-Clickable-Test,Chrome 125.0.0.0,,,28-05-2024 21:45:51,28-05-2024 21:46:13,21.797s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,28-05-2024 21:45:52,28-05-2024 21:45:55,3.221s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,28-05-2024 21:45:55,28-05-2024 21:46:10,14.429s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/KMS/Page_Award-Wining Global Software Developme_3f2c77/a_Global Delivery""))",Chrome 125.0.0.0,,,28-05-2024 21:46:10,28-05-2024 21:46:12,1.965s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,28-05-2024 21:46:12,28-05-2024 21:46:13,1.504s,PASSED

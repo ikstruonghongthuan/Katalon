@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify_Body,Chrome 125.0.0.0,,,28-05-2024 21:45:04,28-05-2024 21:57:54,12m - 50.291s,FAILED
+,,,,,,,
+Test Cases/FPT-TC03-Verify-Customer-Stories,Chrome 125.0.0.0,,,28-05-2024 21:48:43,28-05-2024 21:49:02,18.461s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,28-05-2024 21:48:43,28-05-2024 21:48:45,1.444s,PASSED
+"navigateToUrl(""https://fptsoftware.com/"")",Chrome 125.0.0.0,,,28-05-2024 21:48:45,28-05-2024 21:48:45,0.455s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/h3_CUSTOMER STORIES""), ""CUSTOMER STORIES"")",Chrome 125.0.0.0,,,28-05-2024 21:48:45,28-05-2024 21:49:02,16.525s,FAILED
+,,,,,,,
+Test Cases/FPT-TC04-Verify-Our-Mission,Chrome 125.0.0.0,,,28-05-2024 21:55:33,28-05-2024 21:57:54,2m - 20.916s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,28-05-2024 21:55:33,28-05-2024 21:55:35,1.401s,PASSED
+"navigateToUrl(""https://fptsoftware.com/"")",Chrome 125.0.0.0,,,28-05-2024 21:55:35,28-05-2024 21:56:43,1m - 8.797s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_WE ARE                              a c_6fe479""))",Chrome 125.0.0.0,,,28-05-2024 21:56:43,28-05-2024 21:57:15,31.769s,PASSED
+"verifyElementText(findTestObject(""Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_WE ARE""), ""WE ARE"")",Chrome 125.0.0.0,,,28-05-2024 21:57:15,28-05-2024 21:57:54,38.921s,FAILED

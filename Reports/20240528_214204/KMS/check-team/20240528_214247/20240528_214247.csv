@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-team,Chrome 125.0.0.0,,,28-05-2024 21:47:33,28-05-2024 21:49:38,2m - 4.931s,PASSED
+,,,,,,,
+Test Cases/KMS/KMS-Global-Team-Clickable,Chrome 125.0.0.0,,,28-05-2024 21:49:02,28-05-2024 21:49:38,36.294s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,28-05-2024 21:49:02,28-05-2024 21:49:19,17.352s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,28-05-2024 21:49:19,28-05-2024 21:49:20,0.439s,PASSED
+"click(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Learn More About Our Global Teams""))",Chrome 125.0.0.0,,,28-05-2024 21:49:20,28-05-2024 21:49:37,17.849s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,28-05-2024 21:49:37,28-05-2024 21:49:38,0.552s,PASSED

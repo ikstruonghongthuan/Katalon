@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-menu,Chrome 125.0.0.0,,,28-05-2024 21:46:41,28-05-2024 21:47:06,25.672s,PASSED
+,,,,,,,
+Test Cases/KMS/KMS-Check-Global-Nav,Chrome 125.0.0.0,,,28-05-2024 21:46:41,28-05-2024 21:47:06,25.054s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,28-05-2024 21:46:42,28-05-2024 21:46:48,5.851s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,28-05-2024 21:46:48,28-05-2024 21:46:49,0.466s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/ul_ServicesSoftware EngineeringData Service_bfb282""))",Chrome 125.0.0.0,,,28-05-2024 21:46:49,28-05-2024 21:47:05,16.455s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,28-05-2024 21:47:05,28-05-2024 21:47:06,1.140s,PASSED

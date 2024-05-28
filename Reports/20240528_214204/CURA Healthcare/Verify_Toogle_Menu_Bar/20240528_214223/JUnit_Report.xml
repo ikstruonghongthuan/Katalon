@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify_Toogle_Menu_Bar" time="30.326" tests="3" failures="0" errors="0">
+   <testsuite name="Verify_Toogle_Menu_Bar" tests="3" failures="0" errors="0" time="30.326" skipped="0" timestamp="28-05-2024T21:43:59" hostname="ToanLa - DESKTOP-QSIPVT9" id="Test Suites/CURA Healthcare/Verify_Toogle_Menu_Bar">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_214204\\CURA Healthcare\\Verify_Toogle_Menu_Bar\\20240528_214223"/>
+         <property name="logFiles" value="C:\\Users\\ToanLa\\git\\katalon\\Reports\\20240528_214204\\CURA Healthcare\\Verify_Toogle_Menu_Bar\\20240528_214223\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ToanLa - DESKTOP-QSIPVT9"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="7f13cded23c0556fd1c5679e966a4111"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA Healthcare/Verify_Toogle_Menu_Items" time="13.967" classname="Test Cases/CURA Healthcare/Verify_Toogle_Menu_Items" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:44:00 - [TEST_CASE][PASSED] - Test Cases/CURA Healthcare/Verify_Toogle_Menu_Items: Test Cases/CURA Healthcare/Verify_Toogle_Menu_Items
+
+28-05-2024T21:44:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T21:44:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T21:44:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T21:44:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T21:44:06 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+28-05-2024T21:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+28-05-2024T21:44:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare"), "CURA Healthcare"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' are matched.
+
+28-05-2024T21:44:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' are matched.
+
+28-05-2024T21:44:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Home' are matched.
+
+28-05-2024T21:44:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Home' are matched.
+
+28-05-2024T21:44:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Login' are matched.
+
+28-05-2024T21:44:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/a_Login' are matched.
+
+28-05-2024T21:44:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T21:44:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Healthcare/Verify_Toggle_Menu" time="7.656" classname="Test Cases/CURA Healthcare/Verify_Toggle_Menu" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:44:14 - [TEST_CASE][PASSED] - Test Cases/CURA Healthcare/Verify_Toggle_Menu: Test Cases/CURA Healthcare/Verify_Toggle_Menu
+
+28-05-2024T21:44:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T21:44:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T21:44:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T21:44:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T21:44:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:19 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is visible
+
+28-05-2024T21:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is visible
+
+28-05-2024T21:44:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T21:44:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu" time="8.029" classname="Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu" status="PASSED">
+         <system-out><![CDATA[28-05-2024T21:44:22 - [TEST_CASE][PASSED] - Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu: Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu
+
+28-05-2024T21:44:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-05-2024T21:44:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-05-2024T21:44:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-05-2024T21:44:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-05-2024T21:44:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:27 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-05-2024T21:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+28-05-2024T21:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+28-05-2024T21:44:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/nav_CURA Healthcare                        _1b5e83")): Object 'Object Repository/Page_CURA Healthcare Service/nav_CURA Healthcare                        _1b5e83' is visible
+
+28-05-2024T21:44:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/nav_CURA Healthcare                        _1b5e83' is visible
+
+28-05-2024T21:44:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-05-2024T21:44:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-05-2024T21:43:59 - [TEST_SUITE][PASSED] - Verify_Toogle_Menu_Bar: Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
