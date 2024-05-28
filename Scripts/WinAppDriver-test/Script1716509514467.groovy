@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', 'notepad')
 
-Windows.setText(findWindowsObject('Object Repository/WinAppDriver/Document(2)'), 'Hello Trương Văn Hết')
+Windows.setText(findWindowsObject('Object Repository/WinAppDriver/Document(2)'), 'Không hello đc không')
 
 Windows.closeApplication()
 
