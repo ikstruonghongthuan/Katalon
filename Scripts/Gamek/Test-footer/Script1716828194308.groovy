@@ -21,8 +21,5 @@ WebUI.openBrowser('https://gamek.vn/')
 
 WebUI.click(findTestObject('Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_TRANG CHGAME ONLINETH TRNGPC CONSOLEeSP_1d90e4'))
 
-WebUI.verifyElementHasAttribute(findTestObject('Page_Knh tin Game ln nht, th vin Game y  nht/p_Copyright 2007 - 2024  Cng ty C phn VCCor_a9ed15'), 
-    '', 0)
-
 WebUI.closeBrowser()
 

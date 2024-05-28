@@ -21,8 +21,6 @@ WebUI.openBrowser('https://www.google.com.vn/')
 
 WebUI.setText(findTestObject('Object Repository/gamek/Page_Google/textarea_ng nhp_q'), 'hello')
 
-WebUI.click(findTestObject('Object Repository/gamek/Page_Google/div_vcVZ7dtext-aligncentergws-output-pages-_82eeda'))
-
 WebUI.navigateToUrl('https://www.youtube.com/watch?v=YQHsXMglC9A')
 
 WebUI.closeBrowser()
