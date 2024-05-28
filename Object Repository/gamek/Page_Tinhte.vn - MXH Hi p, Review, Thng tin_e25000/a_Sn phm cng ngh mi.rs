@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sn phm cng ngh mi</name>
+   <tag></tag>
+   <elementGuidId>8c3c5b61-b118-459d-85bc-83e8a25d1b99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/ol/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Sản phẩm công nghệ mới&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c60e91b8-2b90-44fd-b2cd-96afb596a0c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://tinhte.vn/resources/</value>
+      <webElementGuid>d06a0f74-edcf-4a29-9eb9-0a96f3a1f056</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jsx-3087876521</value>
+      <webElementGuid>a681229b-2802-4408-9778-e8d73278f7fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sản phẩm công nghệ mới</value>
+      <webElementGuid>2b00a89b-1298-49fe-9513-1d8cc2c21f01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;root&quot;]/div[@class=&quot;jsx-2219280840 main&quot;]/div[@class=&quot;jsx-2219280840 shortcuts&quot;]/div[@class=&quot;jsx-3087876521 main&quot;]/ol[@class=&quot;jsx-3087876521 list&quot;]/li[@class=&quot;jsx-3087876521 item&quot;]/a[@class=&quot;jsx-3087876521&quot;]</value>
+      <webElementGuid>ef6b72fb-ab83-424c-9f65-9c5f6a1ebc21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/ol/li[2]/a</value>
+      <webElementGuid>b4470d3c-5986-495f-b80a-bf247546bbcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sản phẩm công nghệ mới')]</value>
+      <webElementGuid>d2f6366c-5463-420f-bdaf-df4d920521dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tin mới'])[1]/following::a[1]</value>
+      <webElementGuid>c191d500-cc02-4b2c-9faa-58d6c9599229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xem tất cả'])[6]/following::a[2]</value>
+      <webElementGuid>45a31541-59a1-4e48-98da-add0fd6ee9ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khuyến mãi'])[1]/preceding::a[1]</value>
+      <webElementGuid>63468320-6ed9-4096-a7fa-42106d43e118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sự kiện'])[1]/preceding::a[2]</value>
+      <webElementGuid>f0eade14-ea71-4a7b-b650-0e5f18b51266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sản phẩm công nghệ mới']/parent::*</value>
+      <webElementGuid>3720e38f-0170-4511-8104-630f29435ac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://tinhte.vn/resources/')]</value>
+      <webElementGuid>9b17af59-43ad-4a17-a849-bb85e4f50347</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/li[2]/a</value>
+      <webElementGuid>14605e1a-102f-427e-b668-5701d26bd61a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://tinhte.vn/resources/' and (text() = 'Sản phẩm công nghệ mới' or . = 'Sản phẩm công nghệ mới')]</value>
+      <webElementGuid>23c4ec49-c1af-435a-90e7-b37d7b5df819</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

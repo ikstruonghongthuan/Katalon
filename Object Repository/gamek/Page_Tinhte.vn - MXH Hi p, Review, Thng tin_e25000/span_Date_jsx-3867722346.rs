@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Date_jsx-3867722346</name>
+   <tag></tag>
+   <elementGuidId>8c91c6ef-b247-4c29-af09-f4b7cd4192da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/header/div/div[3]/div/div/button/span/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=banner >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5c02eccf-5bd9-4b1c-9214-2b17f46fe053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jsx-3867722346</value>
+      <webElementGuid>a2e6615a-e45a-4abc-9aec-15a8aa06fb9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;root&quot;]/header[@class=&quot;jsx-663639823&quot;]/div[@class=&quot;jsx-663639823 row header-wrapper&quot;]/div[@class=&quot;jsx-663639823 col-right right&quot;]/div[1]/div[@class=&quot;jsx-2504361010 main&quot;]/button[@class=&quot;jsx-3867722346 burger-menu dark-theme-icon&quot;]/span[@class=&quot;jsx-3867722346 burger&quot;]/span[@class=&quot;jsx-3867722346&quot;]</value>
+      <webElementGuid>b065b0eb-4325-4621-9e6e-08916c5335b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/header/div/div[3]/div/div/button/span/span[2]</value>
+      <webElementGuid>b1e184b9-4e67-4e5e-be5b-79e79fedb83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>ce9312e5-eda6-48c1-ad1a-59e6666657fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
