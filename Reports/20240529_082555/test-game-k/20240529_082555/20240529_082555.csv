@@ -1,0 +1,208 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test-game-k,Chrome 125.0.0.0,,,29-05-2024 08:26:02,29-05-2024 08:30:22,4m - 20.230s,PASSED
+,,,,,,,
+Test Cases/Gamek/Test-footer,Chrome 125.0.0.0,,,29-05-2024 08:26:02,29-05-2024 08:26:08,5.384s,PASSED
+"openBrowser(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:03,29-05-2024 08:26:06,3.511s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_TRANG CHGAME ONLINETH TRNGPC CONSOLEeSP_1d90e4""))",Chrome 125.0.0.0,,,29-05-2024 08:26:06,29-05-2024 08:26:07,1.388s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:07,29-05-2024 08:26:08,0.209s,PASSED
+,,,,,,,
+Test Cases/Gamek/Test_button,Chrome 125.0.0.0,,,29-05-2024 08:26:08,29-05-2024 08:26:12,4.450s,PASSED
+"openBrowser(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:08,29-05-2024 08:26:10,2.076s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a_eSPORTS""))",Chrome 125.0.0.0,,,29-05-2024 08:26:10,29-05-2024 08:26:11,1.638s,PASSED
+"navigateToUrl(""https://gamek.vn/esport.chn"")",Chrome 125.0.0.0,,,29-05-2024 08:26:11,29-05-2024 08:26:12,0.490s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:12,29-05-2024 08:26:12,0.191s,PASSED
+,,,,,,,
+Test Cases/Gamek/test_logo,Chrome 125.0.0.0,,,29-05-2024 08:26:12,29-05-2024 08:26:17,5.152s,PASSED
+"openBrowser(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:12,29-05-2024 08:26:15,2.617s,PASSED
+"navigateToUrl(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:15,29-05-2024 08:26:16,0.697s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/a""))",Chrome 125.0.0.0,,,29-05-2024 08:26:16,29-05-2024 08:26:17,1.585s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 125.0.0.0,,,29-05-2024 08:26:17,29-05-2024 08:26:17,0.182s,PASSED
+,,,,,,,
+Test Cases/Gamek/Test_search,Chrome 125.0.0.0,,,29-05-2024 08:26:17,29-05-2024 08:26:26,9.026s,PASSED
+"openBrowser(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:17,29-05-2024 08:26:20,2.715s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/input_CNG NG_searchinput""), ""Game hay"")",Chrome 125.0.0.0,,,29-05-2024 08:26:20,29-05-2024 08:26:21,0.705s,PASSED
+"navigateToUrl(""https://gamek.vn/tim-kiem.chn?keyword=Game%20hay"")",Chrome 125.0.0.0,,,29-05-2024 08:26:21,29-05-2024 08:26:21,0.648s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang tm kim - Knh tin Game ln nht, th_c5ca43/a_Epic pht tng min ph Game hay nht th gii g_8f3fa6""))",Chrome 125.0.0.0,,,29-05-2024 08:26:21,29-05-2024 08:26:23,1.167s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Epic pht tng min ph Game hay nht th gi_8a0179/h1_Epic pht tng min ph Game hay nht th gii _4a7cdb""))",Chrome 125.0.0.0,,,29-05-2024 08:26:23,29-05-2024 08:26:26,3.520s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:26,29-05-2024 08:26:26,0.213s,PASSED
+,,,,,,,
+Test Cases/Gamek/Verify-1,Chrome 125.0.0.0,,,29-05-2024 08:26:26,29-05-2024 08:26:28,1.992s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:26,29-05-2024 08:26:28,1.819s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:28,29-05-2024 08:26:28,0.129s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-10,Chrome 125.0.0.0,,,29-05-2024 08:26:28,29-05-2024 08:26:34,5.224s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:28,29-05-2024 08:26:32,3.657s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Xem mua lun/a_Xe""))",Chrome 125.0.0.0,,,29-05-2024 08:26:32,29-05-2024 08:26:33,1.007s,PASSED
+"navigateToUrl(""https://genk.vn/xe.chn"")",Chrome 125.0.0.0,,,29-05-2024 08:26:33,29-05-2024 08:26:33,0.345s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:33,29-05-2024 08:26:34,0.170s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-11,Chrome 125.0.0.0,,,29-05-2024 08:26:34,29-05-2024 08:26:45,11.552s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:34,29-05-2024 08:26:37,3.050s,PASSED
+"navigateToUrl(""https://genk.vn/kham-pha.chn"")",Chrome 125.0.0.0,,,29-05-2024 08:26:37,29-05-2024 08:26:37,0.302s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Khm ph khoa hc v cng ngh ton cu cp nht 247/a_B n v ngi cha g cao nht th gii, c xy dng _3a22eb""))",Chrome 125.0.0.0,,,29-05-2024 08:26:37,29-05-2024 08:26:38,1.552s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_Ngy123456789101112131415161718192021_8e03e4""), ""28"", true)",Chrome 125.0.0.0,,,29-05-2024 08:26:38,29-05-2024 08:26:43,4.300s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_ThngThng 1Thng 2Thng 3Thng 4Thng 5Th_e54b33""), ""5"", true)",Chrome 125.0.0.0,,,29-05-2024 08:26:43,29-05-2024 08:26:44,1.157s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/gamek/Page_B n v ngi cha g cao nht th gii, c xy d_f187c5/select_20242023202220212020""), ""2024"", true)",Chrome 125.0.0.0,,,29-05-2024 08:26:44,29-05-2024 08:26:45,0.943s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:45,29-05-2024 08:26:45,0.198s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-12,Chrome 125.0.0.0,,,29-05-2024 08:26:45,29-05-2024 08:26:50,4.584s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:45,29-05-2024 08:26:47,1.657s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img""))",Chrome 125.0.0.0,,,29-05-2024 08:26:47,29-05-2024 08:26:48,1.372s,PASSED
+"navigateToUrl(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:48,29-05-2024 08:26:48,0.303s,PASSED
+"rightClick(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/img""))",Chrome 125.0.0.0,,,29-05-2024 08:26:48,29-05-2024 08:26:50,1.051s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:50,29-05-2024 08:26:50,0.156s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-18,Chrome 125.0.0.0,,,29-05-2024 08:26:50,29-05-2024 08:26:57,6.940s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:50,29-05-2024 08:26:53,3.309s,PASSED
+"navigateToUrl(""https://kenh14.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:53,29-05-2024 08:26:56,3.072s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:26:56,29-05-2024 08:26:57,0.519s,PASSED
+,,,,,,,
+Test Cases/Gamek/Verify-19,Chrome 125.0.0.0,,,29-05-2024 08:26:57,29-05-2024 08:27:01,4.326s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:57,29-05-2024 08:26:58,1.611s,PASSED
+"navigateToUrl(""https://cafebiz.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:26:58,29-05-2024 08:27:01,2.464s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:01,29-05-2024 08:27:01,0.213s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-2,Chrome 125.0.0.0,,,29-05-2024 08:27:01,29-05-2024 08:27:05,3.769s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:01,29-05-2024 08:27:03,1.900s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Google/textarea_ng nhp_q""), ""sổ xố kienses thiết"")",Chrome 125.0.0.0,,,29-05-2024 08:27:03,29-05-2024 08:27:04,0.789s,PASSED
+"navigateToUrl(""https://www.google.com.vn/search?q=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&sca_esv=8a43c4591a19e45c&sca_upv=1&source=hp&ei=6d1VZsbAMfKovr0PmNmFoQ0&iflsig=AL9hbdgAAAAAZlXr-eqlfoyhtzDZP5qAILAhBBvEh3_K&udm=&ved=0ahUKEwiG2YPLu7CGAxVylK8BHZhsIdQQ4dUDCA0&uact=5&oq=s%E1%BB%95+x%E1%BB%91+kienses+thi%E1%BA%BFt&gs_lp=Egdnd3Mtd2l6Ihlz4buVIHjhu5Ega2llbnNlcyB0aGnhur90MgkQABiABBgKGA0yCBAAGBYYChgeMggQABgWGAoYHjIIEAAYFhgKGB4yCBAAGBYYChgeMggQABiiBBiJBUi3SlDjEligN3AReACQAQSYAasCoAHAF6oBBjcuMTEuNLgBA8gBAPgBAZgCIqACtg-oAgrCAgoQABgDGOoCGI8BwgIKEC4YAxjqAhiPAcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICBRAuGIAEwgIIEAAYgAQYsQPCAg4QLhiABBixAxjHARivAcICBBAAGAPCAg0QABiABBixAxiDARgKwgIKEAAYgAQYsQMYCsICBxAAGIAEGArCAgYQABgDGAqYAwiSBwcyMy4xMC4xoAe9qgE&sclient=gws-wiz"")",Chrome 125.0.0.0,,,29-05-2024 08:27:04,29-05-2024 08:27:05,0.866s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:05,29-05-2024 08:27:05,0.161s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-20,Chrome 125.0.0.0,,,29-05-2024 08:27:05,29-05-2024 08:27:09,4.704s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:05,29-05-2024 08:27:08,3.045s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Xem - Mua - Lun""))",Chrome 125.0.0.0,,,29-05-2024 08:27:08,29-05-2024 08:27:09,1.039s,PASSED
+"navigateToUrl(""https://genk.vn/xem-mua-luon.chn"")",Chrome 125.0.0.0,,,29-05-2024 08:27:09,29-05-2024 08:27:09,0.387s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:09,29-05-2024 08:27:09,0.193s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-21,Chrome 125.0.0.0,,,29-05-2024 08:27:09,29-05-2024 08:27:14,4.483s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:09,29-05-2024 08:27:11,1.740s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_chi s_i-expand""))",Chrome 125.0.0.0,,,29-05-2024 08:27:11,29-05-2024 08:27:12,0.922s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Mobile""))",Chrome 125.0.0.0,,,29-05-2024 08:27:12,29-05-2024 08:27:13,1.322s,PASSED
+"navigateToUrl(""https://genk.vn/mobile.chn"")",Chrome 125.0.0.0,,,29-05-2024 08:27:13,29-05-2024 08:27:14,0.226s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:14,29-05-2024 08:27:14,0.233s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-22,Chrome 125.0.0.0,,,29-05-2024 08:27:14,29-05-2024 08:27:20,5.934s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:14,29-05-2024 08:27:16,1.683s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch""))",Chrome 125.0.0.0,,,29-05-2024 08:27:16,29-05-2024 08:27:17,1.006s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/p_Hc lm AI_searchinput""), ""hellp"")",Chrome 125.0.0.0,,,29-05-2024 08:27:17,29-05-2024 08:27:18,1.190s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Trang thng tin dnh cho tn  cng ngh  GenK.vn/a_Hc lm AI_btnSearch""))",Chrome 125.0.0.0,,,29-05-2024 08:27:18,29-05-2024 08:27:19,1.187s,PASSED
+"navigateToUrl(""https://genk.vn/tim-kiem.chn?keywords=hellp"")",Chrome 125.0.0.0,,,29-05-2024 08:27:19,29-05-2024 08:27:20,0.661s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:20,29-05-2024 08:27:20,0.156s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-23,Chrome 125.0.0.0,,,29-05-2024 08:27:20,29-05-2024 08:27:27,7.304s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:20,29-05-2024 08:27:27,6.933s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:27,29-05-2024 08:27:27,0.328s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-24,Chrome 125.0.0.0,,,29-05-2024 08:27:27,29-05-2024 08:27:42,15.111s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:27,29-05-2024 08:27:34,6.997s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Tinhte""))",Chrome 125.0.0.0,,,29-05-2024 08:27:34,29-05-2024 08:27:37,3.016s,PASSED
+"navigateToUrl(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:37,29-05-2024 08:27:39,1.799s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search""), ""helloasd"")",Chrome 125.0.0.0,,,29-05-2024 08:27:39,29-05-2024 08:27:41,2.292s,PASSED
+"sendKeys(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search""), Keys.chord(ENTER))",Chrome 125.0.0.0,,,29-05-2024 08:27:41,29-05-2024 08:27:42,0.687s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:42,29-05-2024 08:27:42,0.258s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-25,Chrome 125.0.0.0,,,29-05-2024 08:27:42,29-05-2024 08:27:55,13.067s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:42,29-05-2024 08:27:50,7.277s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/div_Mng x hi""))",Chrome 125.0.0.0,,,29-05-2024 08:27:50,29-05-2024 08:27:53,3.074s,PASSED
+"navigateToUrl(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:53,29-05-2024 08:27:55,2.468s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:27:55,29-05-2024 08:27:55,0.210s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-26,Chrome 125.0.0.0,,,29-05-2024 08:27:55,29-05-2024 08:28:04,8.719s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:27:55,29-05-2024 08:28:03,7.523s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/span_Date_jsx-3867722346""))",Chrome 125.0.0.0,,,29-05-2024 08:28:03,29-05-2024 08:28:04,0.946s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:04,29-05-2024 08:28:04,0.210s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-27,Chrome 125.0.0.0,,,29-05-2024 08:28:04,29-05-2024 08:28:15,10.617s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:04,29-05-2024 08:28:12,7.407s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Sn phm cng ngh mi""))",Chrome 125.0.0.0,,,29-05-2024 08:28:12,29-05-2024 08:28:14,2.547s,PASSED
+"navigateToUrl(""https://thuvien.tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:14,29-05-2024 08:28:14,0.410s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:14,29-05-2024 08:28:15,0.209s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-28,Chrome 125.0.0.0,,,29-05-2024 08:28:15,29-05-2024 08:28:24,9.142s,PASSED
+"openBrowser(""https://fptshop.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:15,29-05-2024 08:28:22,7.681s,PASSED
+"navigateToUrl(""https://fptshop.com.vn/tim-kiem/iphone"")",Chrome 125.0.0.0,,,29-05-2024 08:28:22,29-05-2024 08:28:24,1.232s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:24,29-05-2024 08:28:24,0.197s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-29,Chrome 125.0.0.0,,,29-05-2024 08:28:24,29-05-2024 08:28:40,15.710s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:24,29-05-2024 08:28:31,7.381s,PASSED
+"navigateToUrl(""https://tinhte.vn/thread/decode-cam-bien-chuot-quang-hoat-dong-the-nao-toc-do-dpi-chuot-la-gi-co-can-toi-20-30-nghin-dpi.3791214/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:31,29-05-2024 08:28:39,7.838s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:39,29-05-2024 08:28:40,0.450s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-3,Chrome 125.0.0.0,,,29-05-2024 08:28:40,29-05-2024 08:28:42,2.475s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:40,29-05-2024 08:28:41,1.870s,PASSED
+"rightClick(findTestObject(""Object Repository/gamek/Page_Google/img_ng nhp_lnXdpd""))",Chrome 125.0.0.0,,,29-05-2024 08:28:41,29-05-2024 08:28:42,0.426s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:42,29-05-2024 08:28:42,0.139s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-30,Chrome 125.0.0.0,,,29-05-2024 08:28:42,29-05-2024 08:28:50,8.117s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:42,29-05-2024 08:28:49,6.857s,PASSED
+"navigateToUrl(""https://tinhte.vn/khcn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:49,29-05-2024 08:28:50,1.036s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:50,29-05-2024 08:28:50,0.192s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-31,Chrome 125.0.0.0,,,29-05-2024 08:28:50,29-05-2024 08:28:59,8.512s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:50,29-05-2024 08:28:57,6.672s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/input_Mng x hi_search (1)""), ""1"")",Chrome 125.0.0.0,,,29-05-2024 08:28:57,29-05-2024 08:28:58,1.580s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:28:58,29-05-2024 08:28:59,0.226s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-32,Chrome 125.0.0.0,,,29-05-2024 08:28:59,29-05-2024 08:29:14,14.875s,PASSED
+"openBrowser(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:28:59,29-05-2024 08:29:05,6.670s,PASSED
+"navigateToUrl(""https://tinhte.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:05,29-05-2024 08:29:07,1.887s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Tinhte.vn - MXH Hi p, Review, Thng tin_e25000/a_Mua bn camera""))",Chrome 125.0.0.0,,,29-05-2024 08:29:07,29-05-2024 08:29:13,6.102s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:13,29-05-2024 08:29:14,0.182s,PASSED
+,,,,,,,
+Test Cases/Gamek/Verify-4,Chrome 125.0.0.0,,,29-05-2024 08:29:14,29-05-2024 08:29:18,4.791s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:14,29-05-2024 08:29:16,1.996s,PASSED
+"setText(findTestObject(""Object Repository/gamek/Page_Google/textarea_ng nhp_q""), ""hello"")",Chrome 125.0.0.0,,,29-05-2024 08:29:16,29-05-2024 08:29:16,0.752s,PASSED
+"navigateToUrl(""https://www.youtube.com/watch?v=YQHsXMglC9A"")",Chrome 125.0.0.0,,,29-05-2024 08:29:16,29-05-2024 08:29:18,1.815s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:18,29-05-2024 08:29:18,0.193s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-5,Chrome 125.0.0.0,,,29-05-2024 08:29:18,29-05-2024 08:29:24,5.393s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:18,29-05-2024 08:29:20,1.877s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Google/button_sau""))",Chrome 125.0.0.0,,,29-05-2024 08:29:20,29-05-2024 08:29:21,0.467s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Google/a_Qung co""))",Chrome 125.0.0.0,,,29-05-2024 08:29:21,29-05-2024 08:29:23,2.012s,PASSED
+"navigateToUrl(""https://ads.google.com/intl/vi_vn/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"")",Chrome 125.0.0.0,,,29-05-2024 08:29:23,29-05-2024 08:29:24,0.842s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:24,29-05-2024 08:29:24,0.163s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-6,Chrome 125.0.0.0,,,29-05-2024 08:29:24,29-05-2024 08:29:29,4.864s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:24,29-05-2024 08:29:26,1.800s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Google/a_Gii thiu""))",Chrome 125.0.0.0,,,29-05-2024 08:29:26,29-05-2024 08:29:28,1.960s,PASSED
+"navigateToUrl(""https://about.google/?utm_source=google-VN&utm_medium=referral&utm_campaign=hp-footer&fg=1"")",Chrome 125.0.0.0,,,29-05-2024 08:29:28,29-05-2024 08:29:28,0.774s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:28,29-05-2024 08:29:29,0.291s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-7,Chrome 125.0.0.0,,,29-05-2024 08:29:29,29-05-2024 08:29:32,3.040s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:29,29-05-2024 08:29:30,1.819s,PASSED
+"navigateToUrl(""https://www.google.com/search/howsearchworks/?fg=1"")",Chrome 125.0.0.0,,,29-05-2024 08:29:30,29-05-2024 08:29:31,1.016s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:31,29-05-2024 08:29:32,0.174s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-8,Chrome 125.0.0.0,,,29-05-2024 08:29:32,29-05-2024 08:29:38,6.115s,PASSED
+"openBrowser(""https://www.google.com.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:32,29-05-2024 08:29:34,1.982s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_Google/a_Quyn ring t""))",Chrome 125.0.0.0,,,29-05-2024 08:29:34,29-05-2024 08:29:36,2.698s,PASSED
+"navigateToUrl(""https://policies.google.com/privacy?hl=vi&fg=1"")",Chrome 125.0.0.0,,,29-05-2024 08:29:36,29-05-2024 08:29:37,1.082s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:37,29-05-2024 08:29:38,0.307s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-9,Chrome 125.0.0.0,,,29-05-2024 08:29:38,29-05-2024 08:29:41,3.457s,PASSED
+"openBrowser(""https://genk.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:38,29-05-2024 08:29:41,3.227s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:41,29-05-2024 08:29:41,0.200s,PASSED
+,,,,,,,
+Test Cases/Gamek/Verify-mobie,Chrome 125.0.0.0,,,29-05-2024 08:29:41,29-05-2024 08:29:45,4.253s,PASSED
+"openBrowser(""https://gamek.vn/"")",Chrome 125.0.0.0,,,29-05-2024 08:29:41,29-05-2024 08:29:44,3.101s,PASSED
+"rightClick(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/img_RSS_mb10""))",Chrome 125.0.0.0,,,29-05-2024 08:29:44,29-05-2024 08:29:45,0.436s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/gamek/Page_Knh tin Game ln nht, th vin Game y  nht/div_Copyright 2007 - 2024  Cng ty C phn VCC_c114ea""))",Chrome 125.0.0.0,,,29-05-2024 08:29:45,29-05-2024 08:29:45,0.431s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:45,29-05-2024 08:29:45,0.247s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-33,Chrome 125.0.0.0,,,29-05-2024 08:29:45,29-05-2024 08:29:56,10.819s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,29-05-2024 08:29:45,29-05-2024 08:29:46,0.618s,PASSED
+"navigateToUrl(""https://pythoninstitute.org/pcep"")",Chrome 125.0.0.0,,,29-05-2024 08:29:46,29-05-2024 08:29:50,4.219s,PASSED
+"click(findTestObject(""Object Repository/gamek/Page_PCEP/img""))",Chrome 125.0.0.0,,,29-05-2024 08:29:50,29-05-2024 08:29:56,5.778s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:29:56,29-05-2024 08:29:56,0.164s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-34,Chrome 125.0.0.0,,,29-05-2024 08:29:56,29-05-2024 08:30:06,9.236s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,29-05-2024 08:29:56,29-05-2024 08:29:57,0.629s,PASSED
+"navigateToUrl(""https://pythoninstitute.org/pcep"")",Chrome 125.0.0.0,,,29-05-2024 08:29:57,29-05-2024 08:30:02,4.845s,PASSED
+"click(findTestObject(""Object Repository/Page_PCEP/a_Terms and Conditions""))",Chrome 125.0.0.0,,,29-05-2024 08:30:02,29-05-2024 08:30:05,3.437s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:30:05,29-05-2024 08:30:06,0.295s,PASSED
+,,,,,,,
+Test Cases/Gamek/verify-35,Chrome 125.0.0.0,,,29-05-2024 08:30:06,29-05-2024 08:30:22,16.835s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,29-05-2024 08:30:06,29-05-2024 08:30:06,0.641s,PASSED
+"navigateToUrl(""https://pythoninstitute.org/pcep"")",Chrome 125.0.0.0,,,29-05-2024 08:30:06,29-05-2024 08:30:10,3.862s,PASSED
+"click(findTestObject(""Object Repository/Page_PCEP/Page_PCEP/a_Voucher Store""))",Chrome 125.0.0.0,,,29-05-2024 08:30:10,29-05-2024 08:30:22,12.133s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,29-05-2024 08:30:22,29-05-2024 08:30:22,0.168s,PASSED
