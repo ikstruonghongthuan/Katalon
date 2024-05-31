@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-test_desktop,,,,29-05-2024 00:22:29,29-05-2024 00:22:30,1.569s,FAILED
-,,,,,,,
-Test Cases/Desktop-Testing,,,,29-05-2024 00:22:30,29-05-2024 00:22:30,0.047s,FAILED
-"startApplicationWithTitle(""C:\Windows\notepad.exe"", ""Desktop Testing"")",,,,29-05-2024 00:22:30,29-05-2024 00:22:30,0.031s,FAILED
