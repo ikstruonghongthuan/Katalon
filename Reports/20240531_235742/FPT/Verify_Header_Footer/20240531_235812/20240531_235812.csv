@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify_Header_Footer,Chrome 125.0.0.0,,,01-06-2024 00:07:22,01-06-2024 00:19:05,11m - 43.109s,FAILED
+,,,,,,,
+Test Cases/FPT-TC01-Verify-Header,Chrome 125.0.0.0,,,01-06-2024 00:11:37,01-06-2024 00:12:38,1m - 1.755s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:11:37,01-06-2024 00:11:42,5.201s,PASSED
+"navigateToUrl(""https://fptsoftware.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:11:42,01-06-2024 00:11:48,6.111s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo""))",Chrome 125.0.0.0,,,01-06-2024 00:11:48,01-06-2024 00:12:38,50.357s,FAILED
+,,,,,,,
+Test Cases/FPT-TC02-Verify-ContactUS,Chrome 125.0.0.0,,,01-06-2024 00:18:17,01-06-2024 00:19:05,47.186s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:18:18,01-06-2024 00:18:26,8.177s,PASSED
+"navigateToUrl(""https://fptsoftware.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:18:26,01-06-2024 00:18:26,0.459s,PASSED
+"scrollToElement(findTestObject(""FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/div_About Us                Careers        _647cf1""), 0)",Chrome 125.0.0.0,,,01-06-2024 00:18:26,01-06-2024 00:19:05,38.428s,FAILED

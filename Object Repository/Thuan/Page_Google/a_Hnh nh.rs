@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Hnh nh</name>
+   <tag></tag>
+   <elementGuidId>a8100767-5571-46e8-b4ec-06b4247eef14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gb']/div/div/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Tìm kiếm hình ảnh&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>36c0bae7-54af-4ad2-8a89-b1a9aadff9c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gb_I</value>
+      <webElementGuid>62e6c29d-79a1-42c5-b84b-79fd8186e184</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Tìm kiếm hình ảnh </value>
+      <webElementGuid>86420561-6e3e-4401-9d95-30ca818fe2e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-pid</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>085fa7dd-098b-4bc5-a346-434895ddf8f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.google.com.vn/imghp?hl=vi&amp;ogbl</value>
+      <webElementGuid>3734bef7-d78e-47d1-80e1-0e54a250d259</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_top</value>
+      <webElementGuid>e4cc21fe-a095-4eee-a34f-c75cccd3420b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hình ảnh</value>
+      <webElementGuid>c1143ff0-2f04-40da-985c-0bdb05d17b9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gb&quot;)/div[@class=&quot;gb_Dd gb_gb gb_rd&quot;]/div[1]/div[@class=&quot;gb_Kd gb_K gb_4f gb_Uf&quot;]/div[@class=&quot;gb_J gb_K&quot;]/a[@class=&quot;gb_I&quot;]</value>
+      <webElementGuid>4250a25e-ec8c-456a-85a3-2307a6475bfe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gb']/div/div/div/div[2]/a</value>
+      <webElementGuid>2a5eaf5e-a0df-48f4-9b4f-a6e7d6d58bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Hình ảnh')]</value>
+      <webElementGuid>029a73e1-890d-4ee6-bcb2-34642493f6fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gmail'])[1]/following::a[1]</value>
+      <webElementGuid>e01d27ce-bd10-4f3d-917e-4187b53335a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng nhập'])[1]/preceding::a[2]</value>
+      <webElementGuid>818ec8f3-09a0-4898-b6c9-5c31b5f77dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn vấn đề mà bạn muốn gửi ý kiến phản hồi'])[1]/preceding::a[3]</value>
+      <webElementGuid>1d9d2e81-736a-412a-aaf7-8c0324f957c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hình ảnh']/parent::*</value>
+      <webElementGuid>14025f5e-6a0a-4144-80e1-bc5b5ca2ceb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.google.com.vn/imghp?hl=vi&amp;ogbl')]</value>
+      <webElementGuid>a33a396f-d4ba-4f71-bb80-3013e4e76a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div[2]/a</value>
+      <webElementGuid>3d6cb981-0116-4a04-82d8-6293378a9399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.google.com.vn/imghp?hl=vi&amp;ogbl' and (text() = 'Hình ảnh' or . = 'Hình ảnh')]</value>
+      <webElementGuid>3bdb769d-46d8-4b19-b8bc-0a54556656ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

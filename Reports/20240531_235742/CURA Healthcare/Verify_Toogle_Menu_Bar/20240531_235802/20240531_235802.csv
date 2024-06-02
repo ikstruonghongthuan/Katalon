@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify_Toogle_Menu_Bar,Chrome 125.0.0.0,,,01-06-2024 00:01:26,01-06-2024 00:03:06,1m - 40.115s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Toogle_Menu_Items,Chrome 125.0.0.0,,,01-06-2024 00:01:27,01-06-2024 00:01:56,29.011s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:01:29,01-06-2024 00:01:37,8.470s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:01:37,01-06-2024 00:01:41,3.627s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,01-06-2024 00:01:41,01-06-2024 00:01:46,5.249s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare""), ""CURA Healthcare"")",Chrome 125.0.0.0,,,01-06-2024 00:01:46,01-06-2024 00:01:49,3.279s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Home""), ""Home"")",Chrome 125.0.0.0,,,01-06-2024 00:01:49,01-06-2024 00:01:50,0.476s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""), ""Login"")",Chrome 125.0.0.0,,,01-06-2024 00:01:50,01-06-2024 00:01:50,0.404s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:01:50,01-06-2024 00:01:56,6.334s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Toggle_Menu,Chrome 125.0.0.0,,,01-06-2024 00:01:56,01-06-2024 00:02:22,25.965s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:01:57,01-06-2024 00:02:01,3.985s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:02:01,01-06-2024 00:02:08,7.434s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,01-06-2024 00:02:08,01-06-2024 00:02:09,1.122s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:02:09,01-06-2024 00:02:22,13.118s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare/Verify_Clickable_Toggle_Menu,Chrome 125.0.0.0,,,01-06-2024 00:02:23,01-06-2024 00:03:06,43.291s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:02:23,01-06-2024 00:02:33,9.556s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:02:33,01-06-2024 00:02:37,4.358s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,01-06-2024 00:02:37,01-06-2024 00:02:45,8.015s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/nav_CURA Healthcare                        _1b5e83""))",Chrome 125.0.0.0,,,01-06-2024 00:02:45,01-06-2024 00:02:48,2.611s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:02:48,01-06-2024 00:03:06,17.943s,PASSED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Learn More About Our Global Teams",
+      "brokenLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section[3]/div[3]/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Learn More About Our Global Teams\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240531_235742/KMS/check-team/20240531_235828/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Learn More About Our Global Teams_link.png"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="all-bbk" time="652.768" tests="8" failures="0" errors="0">
+   <testsuite name="all-bbk" tests="8" failures="0" errors="0" time="652.768" skipped="0" timestamp="31-05-2024T23:58:48" hostname="vista - 192.168.4.129" id="Test Suites/BBK/all-bbk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\BBK\\all-bbk\\20240531_235744"/>
+         <property name="logFiles" value="C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\BBK\\all-bbk\\20240531_235744\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vista - 192.168.4.129"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.129"/>
+         <property name="sessionId" value="3bbf42716f3f101d4d10e22b98d6d69f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BBK/check-button-1" time="94.283" classname="Test Cases/BBK/check-button-1" status="PASSED">
+         <system-out><![CDATA[31-05-2024T23:58:49 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-1: Test Cases/BBK/check-button-1
+
+31-05-2024T23:58:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-05-2024T23:58:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T23:58:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T23:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-05-2024T23:59:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:00:03 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:00:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is visible
+
+01-06-2024T00:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is visible
+
+01-06-2024T00:00:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:00:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-button-2" time="49.673" classname="Test Cases/BBK/check-button-2" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:00:23 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-2: Test Cases/BBK/check-button-2
+
+01-06-2024T00:00:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:00:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:00:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:00:41 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:00:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value' is visible
+
+01-06-2024T00:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_My Cars Value' is visible
+
+01-06-2024T00:00:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:01:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-button-3" time="33.439" classname="Test Cases/BBK/check-button-3" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:01:13 - [TEST_CASE][PASSED] - Test Cases/BBK/check-button-3: Test Cases/BBK/check-button-3
+
+01-06-2024T00:01:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:01:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:01:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:01:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:01:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:01:30 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:01:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale' is visible
+
+01-06-2024T00:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Shop Cars for Sale' is visible
+
+01-06-2024T00:01:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:01:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-hero-banner" time="37.033" classname="Test Cases/BBK/check-hero-banner" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:01:47 - [TEST_CASE][PASSED] - Test Cases/BBK/check-hero-banner: Test Cases/BBK/check-hero-banner
+
+01-06-2024T00:01:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:01:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:01:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:01:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:01:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:17 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9' is visible
+
+01-06-2024T00:02:22 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Kelley Knows CarsFrom values to repairs_2ed6c9' is visible
+
+01-06-2024T00:02:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:02:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-logo" time="64.186" classname="Test Cases/BBK/check-logo" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:02:24 - [TEST_CASE][PASSED] - Test Cases/BBK/check-logo: Test Cases/BBK/check-logo
+
+01-06-2024T00:02:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:02:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:02:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:02:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:02:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:49 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img' is visible
+
+01-06-2024T00:03:00 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/img' is visible
+
+01-06-2024T00:03:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:03:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-shop-mart-label" time="153.405" classname="Test Cases/BBK/check-shop-mart-label" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:03:28 - [TEST_CASE][PASSED] - Test Cases/BBK/check-shop-mart-label: Test Cases/BBK/check-shop-mart-label
+
+01-06-2024T00:03:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:03:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:03:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:03:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:03:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:04:19 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:04:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart"), "Shop Smart"): Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' are matched.
+
+01-06-2024T00:05:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' are matched.
+
+01-06-2024T00:05:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:06:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-shop-mart" time="107.861" classname="Test Cases/BBK/check-shop-mart" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:06:01 - [TEST_CASE][PASSED] - Test Cases/BBK/check-shop-mart: Test Cases/BBK/check-shop-mart
+
+01-06-2024T00:06:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:06:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:06:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:06:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:06:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:07:18 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:07:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' is visible
+
+01-06-2024T00:07:26 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Smart' is visible
+
+01-06-2024T00:07:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:07:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BBK/check-slogan" time="111.975" classname="Test Cases/BBK/check-slogan" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:07:49 - [TEST_CASE][PASSED] - Test Cases/BBK/check-slogan: Test Cases/BBK/check-slogan
+
+01-06-2024T00:07:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:07:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:07:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:08:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:08:43 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:08:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars")): Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' is visible
+
+01-06-2024T00:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' is visible
+
+01-06-2024T00:08:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars"), "Kelley Knows Cars"): Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' are matched.
+
+01-06-2024T00:08:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BBK/Page_Kelley Blue Book  New and Used Car Pri_e90311/h1_Kelley Knows Cars' are matched.
+
+01-06-2024T00:08:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-05-2024T23:58:48 - [TEST_SUITE][PASSED] - all-bbk: Test Cases/BBK/check-slogan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

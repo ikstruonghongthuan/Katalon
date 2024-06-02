@@ -6,12 +6,12 @@
    <elementGuidId>6a7d34ec-df1f-4195-addd-ed27aa81d1fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#APjFqb</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='APjFqb']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#APjFqb</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>b8f435e1-c244-4b2a-af7a-34ca70bfbe54</webElementGuid>
+      <webElementGuid>1daf2226-7a65-445e-a2c8-4419d08e925f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>gLFyf</value>
-      <webElementGuid>55a47fd2-a8a1-43e2-af11-62d0e7377fda</webElementGuid>
+      <webElementGuid>7dc9f749-d9cd-482f-b9a5-c65df4b05739</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>Alh6id</value>
-      <webElementGuid>dda6d450-66d8-4fae-a3bf-837f98ef0b5b</webElementGuid>
+      <webElementGuid>795e4280-f5be-45ed-aa30-8850deab3d97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-owns</name>
       <type>Main</type>
       <value>Alh6id</value>
-      <webElementGuid>4ae6d070-73ce-4d4c-9a8c-cc243275528e</webElementGuid>
+      <webElementGuid>723e975f-8faa-435e-8239-72030d1518c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Tìm kiếm</value>
-      <webElementGuid>aa5a31b3-bda8-458b-818c-ddf1deb46129</webElementGuid>
+      <webElementGuid>12a6726b-0002-4fbe-a668-428b8ca28510</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>jsaction</name>
       <type>Main</type>
       <value>paste:puy29d;</value>
-      <webElementGuid>239a04de-bcc9-4e3f-85eb-1d561e3a70c9</webElementGuid>
+      <webElementGuid>fb73f435-7392-48e2-992a-aba3a8138ac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Tìm kiếm</value>
-      <webElementGuid>c8b04894-75e4-4c55-b1b8-246d44f4985e</webElementGuid>
+      <webElementGuid>58c225b4-76f1-484c-b31b-6880e6c539e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>both</value>
-      <webElementGuid>378ed1ac-a3e2-408d-bdf0-58966e9e0f6e</webElementGuid>
+      <webElementGuid>47da4488-f42a-4470-ac54-a6f0254926e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>65b6325e-095a-4dc1-ada7-c60ac5570cd3</webElementGuid>
+      <webElementGuid>85c9a981-0222-4303-8341-4e13c819d92d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8acfb057-b1a7-4ad1-9d9c-4c7bedcca522</webElementGuid>
+      <webElementGuid>8b9a1c03-9321-431b-9aa0-2e225b532757</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>abd30985-a73a-4b2c-bf99-21cbee37c6d2</webElementGuid>
+      <webElementGuid>415d10e0-60b8-42f6-8740-572f8fa1f31f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>a7f6c7e0-30b1-4d38-a0fe-8d94aa51df8b</webElementGuid>
+      <webElementGuid>f2e8b605-49b8-41c1-9e51-cb819d3f9248</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>14b966fc-5030-425a-b992-3ef08b0c5652</webElementGuid>
+      <webElementGuid>84d8f6a0-4658-41f7-8ed8-20e4f123e3cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>id</name>
       <type>Main</type>
       <value>APjFqb</value>
-      <webElementGuid>9ed8bdfd-6aef-46d4-858f-1b6dc39db345</webElementGuid>
+      <webElementGuid>aa7a875b-57c0-4b36-a4bc-c07d1440a1f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2048</value>
-      <webElementGuid>8b16f755-944d-4509-93d6-890fd27f432c</webElementGuid>
+      <webElementGuid>9965bfbf-20ef-4bf5-ae0e-f7f67321de60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -149,7 +149,7 @@
       <name>name</name>
       <type>Main</type>
       <value>q</value>
-      <webElementGuid>b899c5d9-7ecf-4d36-9855-752837ce501c</webElementGuid>
+      <webElementGuid>ad5a05db-faf4-466f-9a51-7e4f09c94eca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>182bd8e3-d3c0-4a0f-baa4-e0f6b124e9b8</webElementGuid>
+      <webElementGuid>2cdcccaf-311d-4094-a131-63f1c2ffe56d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>e324303d-d9da-4a21-bbe4-0e119920ef9a</webElementGuid>
+      <webElementGuid>e0fcbb1a-68da-467c-a856-5a948d8c5a41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,15 +173,15 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>609b9bbd-3a64-4ad2-a44d-59b5188b1221</webElementGuid>
+      <webElementGuid>3b049c44-c010-413a-ae09-a2ca5262907a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ved</name>
       <type>Main</type>
-      <value>0ahUKEwjj-8G3rbiGAxXIn68BHTcAFyAQ39UDCAQ</value>
-      <webElementGuid>e27d4bad-ada0-444a-891d-af76506505ad</webElementGuid>
+      <value>0ahUKEwip8p6eq7yGAxXyh68BHeYJFvkQ39UDCAQ</value>
+      <webElementGuid>20781aca-6ad0-48c3-bc94-f0a22c380056</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -189,7 +189,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;APjFqb&quot;)</value>
-      <webElementGuid>6094c834-e88c-42f4-a914-d3ee8012d145</webElementGuid>
+      <webElementGuid>d3227acb-41c6-4d09-aacc-aeb86138eb79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -197,7 +197,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='APjFqb']</value>
-      <webElementGuid>0320a304-261b-4031-baaf-c8bc17114f60</webElementGuid>
+      <webElementGuid>a00e05bf-45b7-46bb-8d79-faefda355b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -205,7 +205,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>ff75d500-ddc5-47bc-b9ec-6c0f5dea48b7</webElementGuid>
+      <webElementGuid>f93c7e31-9d02-4014-ac1c-41b5b546530a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -213,6 +213,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@title = 'Tìm kiếm' and @id = 'APjFqb' and @name = 'q']</value>
-      <webElementGuid>1d01364e-bade-4b16-a68a-fbda62d9fab9</webElementGuid>
+      <webElementGuid>a3c3e2c8-4950-4607-b15f-d441b71fa7e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

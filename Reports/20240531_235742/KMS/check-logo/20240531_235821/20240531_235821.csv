@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-logo,Chrome 125.0.0.0,,,01-06-2024 00:11:00,01-06-2024 00:14:31,3m - 30.716s,FAILED
+,,,,,,,
+Test Cases/KMS/KMS-Verify-Logo,Chrome 125.0.0.0,,,01-06-2024 00:12:44,01-06-2024 00:13:05,21.374s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:12:44,01-06-2024 00:13:01,17.505s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:13:01,01-06-2024 00:13:04,2.518s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/img_Accept All_mega-menu-logo""))",Chrome 125.0.0.0,,,01-06-2024 00:13:04,01-06-2024 00:13:05,1.309s,FAILED
+,,,,,,,
+Test Cases/KMS/KMS-Check-Banner,Chrome 125.0.0.0,,,01-06-2024 00:13:05,01-06-2024 00:14:31,1m - 25.504s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:13:06,01-06-2024 00:13:13,7.136s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:13:13,01-06-2024 00:13:21,7.880s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/Page_Custom Software Development  Consultin_0ef814/section_Custom Software Development  Consul_5a95d4""))",Chrome 125.0.0.0,,,01-06-2024 00:13:21,01-06-2024 00:13:58,37.377s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:13:58,01-06-2024 00:14:31,32.743s,PASSED

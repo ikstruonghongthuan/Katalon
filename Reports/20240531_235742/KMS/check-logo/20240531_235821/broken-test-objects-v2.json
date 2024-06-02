@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/Page_Custom Software Development  Consultin_0ef814/section_Custom Software Development  Consul_5a95d4",
+      "brokenLocator": "//section[@id\u003d\u0027sec-banner\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240531_235742/KMS/check-logo/20240531_235821/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/Page_Custom Software Development  Consultin_0ef814/section_Custom Software Development  Consul_5a95d4_idRelative.png"
+    }
+  ]
+}

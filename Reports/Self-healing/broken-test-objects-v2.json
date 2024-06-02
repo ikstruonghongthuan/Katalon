@@ -249,6 +249,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/h2_Make Appointment_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Software Development",
+      "brokenLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section[2]/div/div/div/div/div[3]/div/div/div/div[2]/div/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Software Development\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Software Development_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/Page_Custom Software Development  Consultin_0ef814/section_Custom Software Development  Consul_5a95d4",
+      "brokenLocator": "//section[@id\u003d\u0027sec-banner\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/Page_Custom Software Development  Consultin_0ef814/section_Custom Software Development  Consul_5a95d4_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Learn More About Our Global Teams",
+      "brokenLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section[3]/div[3]/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Learn More About Our Global Teams\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Learn More About Our Global Teams_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed",
+      "brokenLocator": "//div[@id\u003d\u0027superheroSection\u0027]/div/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kelley Knows Cars\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed_neighbor.png"
     }
   ]
 }

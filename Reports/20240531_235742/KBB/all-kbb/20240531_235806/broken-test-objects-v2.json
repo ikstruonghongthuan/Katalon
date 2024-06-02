@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed",
+      "brokenLocator": "//div[@id\u003d\u0027superheroSection\u0027]/div/div/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kelley Knows Cars\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240531_235742/KBB/all-kbb/20240531_235806/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4",
+      "brokenLocator": "nav.nav__main.flex.flex-col.items-end.text-argo-clrs-primarywhite.font-open-sans.h-[64px].w-[77px].xl:w-[129px].mr-[8px].xl:mr-[0px].false \u003e button.menu-toggle.h-full.w-full.font-open-sans.text-center.self-center.justify-center.bg-transparent.py-[20px].px-[12px].xl:px-[0px].xl:py-[0px].logged-out-menu \u003e div.flex.h-full.w-full.items-center.justify-start \u003e div.text-white.argo-typographyXSMedium.self-center.w-[53px].xl:pl-[24px].xl:py-[24px].false",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "internal:label\u003d\"Open menu\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20240531_235742/KBB/all-kbb/20240531_235806/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4_SMART_LOCATOR.png"
+    }
+  ]
+}

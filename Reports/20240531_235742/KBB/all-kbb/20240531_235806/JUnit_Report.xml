@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="all-kbb" time="1306.451" tests="15" failures="2" errors="0">
+   <testsuite name="all-kbb" tests="15" failures="2" errors="0" time="1306.451" skipped="0" timestamp="01-06-2024T00:01:55" hostname="vista - 192.168.4.129" id="Test Suites/KBB/all-kbb">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806"/>
+         <property name="logFiles" value="C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175706938.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175708513.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175878174.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175879261.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175985269.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717175985967.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176049483.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176049655.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176160352.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176161002.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176171102.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176171714.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176184319.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176184529.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176200650.png, C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176200828.png"/>
+         <property name="hostName" value="vista - 192.168.4.129"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.129"/>
+         <property name="sessionId" value="93526e245309e8b25ee9992873a1de9c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/KBB/check-connections" time="71.661" classname="Test Cases/KBB/check-connections" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:01:55 - [TEST_CASE][PASSED] - Test Cases/KBB/check-connections: Test Cases/KBB/check-connections
+
+01-06-2024T00:01:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:01:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:01:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:02:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:02:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:16 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:02:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+01-06-2024T00:03:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+01-06-2024T00:03:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FacebookTwitterRSSLinkedInYouTube 1995-_981592")): Object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FacebookTwitterRSSLinkedInYouTube 1995-_981592' is visible
+
+01-06-2024T00:03:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FacebookTwitterRSSLinkedInYouTube 1995-_981592' is visible
+
+01-06-2024T00:03:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:03:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/check_button_3" time="82.732" classname="Test Cases/KBB/check_button_3" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:03:07 - [TEST_CASE][PASSED] - Test Cases/KBB/check_button_3: Test Cases/KBB/check_button_3
+
+01-06-2024T00:03:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:03:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:03:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:03:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:03:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:04:26 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:04:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars"), "Shop Best Cars"): Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars' are matched.
+
+01-06-2024T00:04:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars' are matched.
+
+01-06-2024T00:04:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:04:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/click-about-us" time="99.91" classname="Test Cases/KBB/click-about-us" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:04:30 - [TEST_CASE][PASSED] - Test Cases/KBB/click-about-us: Test Cases/KBB/click-about-us
+
+01-06-2024T00:04:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:04:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:04:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:04:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:05:04 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:05:04 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:05:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_About Us")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_About Us' is clicked on
+
+01-06-2024T00:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_About Us' is clicked on
+
+01-06-2024T00:05:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:06:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/click-careers" time="82.345" classname="Test Cases/KBB/click-careers" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:06:10 - [TEST_CASE][PASSED] - Test Cases/KBB/click-careers: Test Cases/KBB/click-careers
+
+01-06-2024T00:06:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:06:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:06:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:06:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:06:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:07:11 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:07:11 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:07:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Sell My Personal Information")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Sell My Personal Information' is clicked on
+
+01-06-2024T00:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Sell My Personal Information' is clicked on
+
+01-06-2024T00:07:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:07:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/click-privacy" time="71.979" classname="Test Cases/KBB/click-privacy" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:07:32 - [TEST_CASE][PASSED] - Test Cases/KBB/click-privacy: Test Cases/KBB/click-privacy
+
+01-06-2024T00:07:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:07:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:07:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:07:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:07:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:08:16 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:08:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+01-06-2024T00:08:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+01-06-2024T00:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Process My Sensitive Information")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Process My Sensitive Information' is clicked on
+
+01-06-2024T00:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Do Not Process My Sensitive Information' is clicked on
+
+01-06-2024T00:08:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:08:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test-copyright" time="56.662" classname="Test Cases/KBB/test-copyright" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:08:44 - [TEST_CASE][PASSED] - Test Cases/KBB/test-copyright: Test Cases/KBB/test-copyright
+
+01-06-2024T00:08:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:08:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:08:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:08:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:09:15 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:09:15 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:09:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:09:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FAQContact UsDo Not Sell My Personal In_2db4c4")): Object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FAQContact UsDo Not Sell My Personal In_2db4c4' is visible
+
+01-06-2024T00:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_FAQContact UsDo Not Sell My Personal In_2db4c4' is visible
+
+01-06-2024T00:09:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test-licking-footer" time="102.676" classname="Test Cases/KBB/test-licking-footer" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:09:41 - [TEST_CASE][PASSED] - Test Cases/KBB/test-licking-footer: Test Cases/KBB/test-licking-footer
+
+01-06-2024T00:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:09:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:09:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:09:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:09:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:10:15 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:10:15 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:10:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us' is clicked on
+
+01-06-2024T00:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us' is clicked on
+
+01-06-2024T00:10:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:11:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_button_4" time="36.737" classname="Test Cases/KBB/test_button_4" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:11:24 - [TEST_CASE][PASSED] - Test Cases/KBB/test_button_4: Test Cases/KBB/test_button_4
+
+01-06-2024T00:11:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:11:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:11:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:11:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:11:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:11:42 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:11:42 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:11:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:11:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Your Car Guide"), "Your Car Guide"): Actual text and expected text of test object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Your Car Guide' are matched.
+
+01-06-2024T00:11:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Your Car Guide' are matched.
+
+01-06-2024T00:11:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:12:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_click-button-1" time="63.399" classname="Test Cases/KBB/test_click-button-1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/KBB/test_click-button-1 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at test_click-button-1.run(test_click-button-1:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[01-06-2024T00:19:46 - [TEST_CASE][FAILED] - Test Cases/KBB/test_click-button-1: Test Cases/KBB/test_click-button-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+01-06-2024T00:19:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:19:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-06-2024T00:19:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:19:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:19:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:19:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/whats-my-car-worth/"): Navigate to 'https://www.kbb.com/whats-my-car-worth/' successfully
+
+01-06-2024T00:20:11 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/whats-my-car-worth/' successfully
+
+01-06-2024T00:20:11 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make"), "New Cars by Make"): Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+01-06-2024T00:20:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='content']/div[4]/div/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-06-2024T00:20:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make'. Try using Self-healing.
+
+01-06-2024T00:20:43 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//main[@id='content']/div[4]/div/div/div/div/h2'.
+
+01-06-2024T00:20:43 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Best Fullsize Trucks'])[2]/following::h2[1]'.
+
+01-06-2024T00:20:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Best Fullsize SUVs'])[2]/following::h2[1]'.
+
+01-06-2024T00:20:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Filter by Make'])[1]/preceding::h2[1]'.
+
+01-06-2024T00:20:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Recommended for You'])[2]/preceding::h2[1]'.
+
+01-06-2024T00:20:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='New Cars by Make']/parent::*'.
+
+01-06-2024T00:20:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]/div/div/div/div/h2'.
+
+01-06-2024T00:20:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h2[(text() = 'New Cars by Make' or . = 'New Cars by Make')]'.
+
+01-06-2024T00:20:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'New Cars by Make' or . = 'New Cars by Make')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-06-2024T00:20:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.css-1hjysog.ej71frw1 > h2.css-1eagefn.e148eed12'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-06-2024T00:20:49 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176049483.png]]
+
+01-06-2024T00:20:49 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176049655.png]]]]></system-out>
+         <system-err><![CDATA[01-06-2024T00:19:46 - [TEST_CASE][FAILED] - Test Cases/KBB/test_click-button-1: Test Cases/KBB/test_click-button-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_click_button" time="53.148" classname="Test Cases/KBB/test_click_button" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:20:49 - [TEST_CASE][PASSED] - Test Cases/KBB/test_click_button: Test Cases/KBB/test_click_button
+
+01-06-2024T00:20:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:20:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-06-2024T00:20:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:20:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:20:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:20:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:21:07 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed")): Object: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is clicked on
+
+01-06-2024T00:21:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='superheroSection']/div/div/div/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-06-2024T00:21:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed'. Try using Self-healing.
+
+01-06-2024T00:21:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='superheroSection']/div/div/div/a/span'.
+
+01-06-2024T00:21:39 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Kelley Knows Cars'])[1]/following::span[1]'.
+
+01-06-2024T00:21:41 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/vista/git/Katalon/Reports/Self-healing/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed_neighbor.png
+
+01-06-2024T00:21:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Kelley Knows Cars'])[1]/following::span[1]'.
+
+01-06-2024T00:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/span_Price NewUsed' is clicked on
+
+01-06-2024T00:21:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:21:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_footer" time="17.206" classname="Test Cases/KBB/test_footer" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:21:42 - [TEST_CASE][PASSED] - Test Cases/KBB/test_footer: Test Cases/KBB/test_footer
+
+01-06-2024T00:21:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:21:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:21:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:21:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:21:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:21:55 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:21:55 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:21:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_FAQ")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_FAQ' is clicked on
+
+01-06-2024T00:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_FAQ' is clicked on
+
+01-06-2024T00:21:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:22:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_logo" time="12.995" classname="Test Cases/KBB/test_logo" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:22:00 - [TEST_CASE][PASSED] - Test Cases/KBB/test_logo: Test Cases/KBB/test_logo
+
+01-06-2024T00:22:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:22:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:22:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:22:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:22:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:22:09 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:22:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars"), "Shop Best Cars"): Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars' are matched.
+
+01-06-2024T00:22:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_Shop Best Cars' are matched.
+
+01-06-2024T00:22:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:22:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_menu_1" time="13.834" classname="Test Cases/KBB/test_menu_1" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:22:13 - [TEST_CASE][PASSED] - Test Cases/KBB/test_menu_1: Test Cases/KBB/test_menu_1
+
+01-06-2024T00:22:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:22:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:22:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:22:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:22:22 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:22:22 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:22:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us")): Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us' is clicked on
+
+01-06-2024T00:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelley Blue Book  New and Used Car Pri_e90311/a_Contact Us' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_menu_2" time="16.617" classname="Test Cases/KBB/test_menu_2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/KBB/test_menu_2 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to accept alert&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)&#xa;	at test_menu_2.run(test_menu_2:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[01-06-2024T00:23:04 - [TEST_CASE][FAILED] - Test Cases/KBB/test_menu_2: Test Cases/KBB/test_menu_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at test_menu_2.run(test_menu_2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+01-06-2024T00:23:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:23:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-06-2024T00:23:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:23:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:23:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:23:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:23:20 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:23:20 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:23:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+01-06-2024T00:23:20 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at test_menu_2.run(test_menu_2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+01-06-2024T00:23:20 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at test_menu_2.run(test_menu_2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176200650.png]]
+
+01-06-2024T00:23:21 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at test_menu_2.run(test_menu_2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\vista\\git\\Katalon\\Reports\\20240531_235742\\KBB\\all-kbb\\20240531_235806\\1717176200828.png]]]]></system-out>
+         <system-err><![CDATA[01-06-2024T00:23:04 - [TEST_CASE][FAILED] - Test Cases/KBB/test_menu_2: Test Cases/KBB/test_menu_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1561)
+	at test_menu_2.run(test_menu_2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KBB/test_title_text" time="20.278" classname="Test Cases/KBB/test_title_text" status="PASSED">
+         <system-out><![CDATA[01-06-2024T00:23:21 - [TEST_CASE][PASSED] - Test Cases/KBB/test_title_text: Test Cases/KBB/test_title_text
+
+01-06-2024T00:23:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-06-2024T00:23:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+01-06-2024T00:23:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-06-2024T00:23:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-06-2024T00:23:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-06-2024T00:23:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.kbb.com/"): Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:23:33 - [MESSAGE][PASSED] - Navigate to 'https://www.kbb.com/' successfully
+
+01-06-2024T00:23:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4"), "Sign In"): Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' are matched.
+
+01-06-2024T00:23:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4'. Try using Self-healing.
+
+01-06-2024T00:23:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-06-2024T00:23:38 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":12,"value":"Failed to execute 'querySelectorAll' on 'DocumentFragment': 'nav.nav__main.flex.flex-col.items-end.text-argo-clrs-primarywhite.font-open-sans.h-[64px].w-[77px].xl:w-[129px].mr-[8px].xl:mr-[0px].false > button.menu-toggle.h-full.w-full.font-open-sans.text-center.self-center.justify-center.bg-transparent.py-[20px].px-[12px].xl:px-[0px].xl:py-[0px].logged-out-menu > div.flex.h-full.w-full.items-center.justify-start > div.text-white.argo-typographyXSMedium.self-center.w-[53px].xl:pl-[24px].xl:py-[24px].false' is not a valid selector."}
+  (Session info: chrome=125.0.6422.113)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'KRIS', ip: '192.168.4.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\vista\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93526e245309e8b25ee9992873a1de9c
+
+01-06-2024T00:23:38 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/vista/git/Katalon/Reports/Self-healing/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4_SMART_LOCATOR.png
+
+01-06-2024T00:23:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' was broken. Propose an alternative one: 'internal:label="Open menu"i'.
+
+01-06-2024T00:23:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' are matched.
+
+01-06-2024T00:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4")): Object: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' is clicked on
+
+01-06-2024T00:23:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4'. Try using Self-healing.
+
+01-06-2024T00:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-06-2024T00:23:40 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":12,"value":"Failed to execute 'querySelectorAll' on 'DocumentFragment': 'nav.nav__main.flex.flex-col.items-end.text-argo-clrs-primarywhite.font-open-sans.h-[64px].w-[77px].xl:w-[129px].mr-[8px].xl:mr-[0px].false > button.menu-toggle.h-full.w-full.font-open-sans.text-center.self-center.justify-center.bg-transparent.py-[20px].px-[12px].xl:px-[0px].xl:py-[0px].logged-out-menu > div.flex.h-full.w-full.items-center.justify-start > div.text-white.argo-typographyXSMedium.self-center.w-[53px].xl:pl-[24px].xl:py-[24px].false' is not a valid selector."}
+  (Session info: chrome=125.0.6422.113)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'KRIS', ip: '192.168.4.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\vista\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93526e245309e8b25ee9992873a1de9c
+
+01-06-2024T00:23:40 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/vista/git/Katalon/Reports/Self-healing/Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4_SMART_LOCATOR.png
+
+01-06-2024T00:23:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' was broken. Propose an alternative one: 'internal:label="Open menu"i'.
+
+01-06-2024T00:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/div_Sign In-fe7-68a-fe4' is clicked on
+
+01-06-2024T00:23:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-06-2024T00:23:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-06-2024T00:01:55 - [TEST_SUITE][FAILED] - all-kbb: Test Cases/KBB/test_click-button-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-06-2024T00:01:55 - [TEST_SUITE][FAILED] - all-kbb: Test Cases/KBB/test_click-button-1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at test_click-button-1.run(test_click-button-1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717174686207.run(TempTestSuite1717174686207.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/KBB/Page_Kelley Blue Book  New and Used Car Pri_e90311/h2_New Cars by Make' located by '//main[@id='content']/div[4]/div/div/div/div/h2' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

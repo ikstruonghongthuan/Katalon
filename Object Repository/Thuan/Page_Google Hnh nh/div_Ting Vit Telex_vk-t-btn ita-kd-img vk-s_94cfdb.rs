@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ting Vit Telex_vk-t-btn ita-kd-img vk-s_94cfdb</name>
+   <tag></tag>
+   <elementGuidId>3c9d90d9-811a-48a0-a3cc-7a8afb0c1141</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kbd']/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.vk-t-btn.ita-kd-img.vk-sf-cl.vk-sf-th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.vk-t-btn</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3830d49e-0a15-4cf9-a1f5-d2ac0a6ff293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vk-t-btn ita-kd-img vk-sf-cl vk-sf-th</value>
+      <webElementGuid>b8debe48-2c14-40a5-8f67-37be8dc1a412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kbd&quot;)/div[1]/div[@class=&quot;vk-t-btns&quot;]/div[@class=&quot;vk-t-btn-o vk-sf-cl&quot;]/div[@class=&quot;vk-t-btn ita-kd-img vk-sf-cl vk-sf-th&quot;]</value>
+      <webElementGuid>4887610c-6fcd-4f2e-90f4-de2aeece8cbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kbd']/div/div[2]/div/div</value>
+      <webElementGuid>a68de9b7-4f60-4422-aee2-c35bd52de0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/div/div</value>
+      <webElementGuid>f1eebd25-e376-40ae-9df9-fee381e6150e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

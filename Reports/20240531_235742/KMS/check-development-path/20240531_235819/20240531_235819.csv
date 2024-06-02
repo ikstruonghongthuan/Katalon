@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+check-development-path,Chrome 125.0.0.0,,,01-06-2024 00:10:44,01-06-2024 00:13:12,2m - 27.709s,PASSED
+,,,,,,,
+Test Cases/KMS/KMS-Software-Development,Chrome 125.0.0.0,,,01-06-2024 00:10:46,01-06-2024 00:12:47,2m - 1.856s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:10:51,01-06-2024 00:11:09,17.949s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:11:09,01-06-2024 00:11:12,2.774s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Software Development""))",Chrome 125.0.0.0,,,01-06-2024 00:11:12,01-06-2024 00:11:46,34.286s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:11:46,01-06-2024 00:12:47,1m - 1.449s,PASSED
+,,,,,,,
+Test Cases/KMS/KMS-Solution,Chrome 125.0.0.0,,,01-06-2024 00:12:47,01-06-2024 00:13:12,24.401s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,01-06-2024 00:12:48,01-06-2024 00:12:53,5.077s,PASSED
+"navigateToUrl(""https://kms-technology.com/"")",Chrome 125.0.0.0,,,01-06-2024 00:12:53,01-06-2024 00:12:58,4.306s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/div_SOLUTIONSAI  Machine LearningCloud Migr_a6bdfe""))",Chrome 125.0.0.0,,,01-06-2024 00:12:58,01-06-2024 00:13:03,5.219s,PASSED
+"verifyElementText(findTestObject(""Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/h5_SOLUTIONS""), ""SOLUTIONS"")",Chrome 125.0.0.0,,,01-06-2024 00:13:03,01-06-2024 00:13:04,1.120s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,01-06-2024 00:13:04,01-06-2024 00:13:12,7.709s,PASSED

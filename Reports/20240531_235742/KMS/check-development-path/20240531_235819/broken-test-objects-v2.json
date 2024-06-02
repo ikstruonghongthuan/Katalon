@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Software Development",
+      "brokenLocator": "//main[@id\u003d\u0027primary\u0027]/div/div/section[2]/div/div/div/div/div[3]/div/div/div/div[2]/div/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(text(),\u0027Software Development\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240531_235742/KMS/check-development-path/20240531_235819/Object Repository/KMS/Page_Custom Software Development  Consultin_0ef814/a_Software Development_link.png"
+    }
+  ]
+}

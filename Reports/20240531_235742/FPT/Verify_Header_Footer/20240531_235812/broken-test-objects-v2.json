@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240531_235742/FPT/Verify_Header_Footer/20240531_235812/Object Repository/FPT/Page_FPT Software  Leading in Digital trans_9e9e5c/img_Singapore (English)_img-logo_position.png"
+    }
+  ]
+}
